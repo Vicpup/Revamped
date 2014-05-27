@@ -1,0 +1,182 @@
+Log: Log file open, 05/26/14 21:06:56
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.22] Init: Computer: ILYA-PC
+[0000.22] Init: User: Ilya
+[0000.22] Init: CPU Page size=4096, Processors=8
+[0000.22] Init: High frequency timer resolution =3.428076 MHz
+[0000.22] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.22] Log: Steam Client API Disabled!
+[0000.25] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.25] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.25] Init: Object subsystem initialized
+[0000.26] Log: SystemSettings based on: SystemSettings
+[0000.28] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0000.28] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0000.31] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.40] Log: PhysX GPU Support: DISABLED
+[0000.40] Init: Initializing FaceFX...
+[0000.40] Init: FaceFX 1.7.4 initialized.
+[0001.19] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0001.19] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0001.20] Init: Finished loading startup packages in 0.70 seconds
+[0001.20] Log: 55335 objects as part of root set at end of initial load.
+[0001.20] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.77] Log: Supported Consoles:
+[0001.77] Log:   IPhone
+[0001.77] Log:   Mac
+[0001.77] Log:   PC
+[0001.77] Log: Initializing Engine...
+[0001.82] Log: Encountered missing default brush - spawning new one
+[0001.82] Init: UEngine initialized
+[0001.82] Log: Primary PhysX scene will be in software.
+[0001.82] Log: Creating Primary PhysX Scene.
+[0001.83] Init: Transaction tracking system initialized
+[0001.83] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0001.83] Log: Can't find edit package 'OnlineSubsystemLive'
+[0001.85] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0001.86] Init: XAudio2Device initialized.
+[0001.89] Init: Client initialized
+[0001.89] Init: Editor engine initialized
+[0001.97] Log: Initializing Engine Completed
+[0001.97] Log: >>>>>>>>>>>>>> Initial startup: 1.97s <<<<<<<<<<<<<<<
+[0002.01] Cmd: MODE MAPEXT=udk
+[0002.07] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0002.69] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0002.69] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0003.51] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0003.60] Log: Encountered missing default brush - spawning new one
+[0003.72] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0003.76] Log: -- Checking Building LODs
+[0003.76] Log: Primary PhysX scene will be in software.
+[0003.76] Log: Creating Primary PhysX Scene.
+[0003.76] Log: Finished looking for orphan Actors (0.001 secs)
+[0003.76] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0003.76] Log: TIMER ALL OF INIT : [3.356784]
+[0013.90] Log: Performing atomic reimport of [..\..\..\Content\Vehicles\StarterRC\StarterBody.FBX]
+[0013.91] Log: -- file on disk exists and is newer.  Performing import.
+[0013.91] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0013.97] Log: Loading FBX Scene from ..\..\..\Content\Vehicles\StarterRC\StarterBody.FBX
+[0014.00] Log: FBX Scene Loaded Succesfully
+[0014.00] Warning: Using default materials for material slot
+[0014.00] Warning: FBX bind pose BIND_POSES is invalid.  It will be ignored
+[0014.00] Log: Warning: The following bones are missing from the bind pose.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+Bone_Root  
+Bone_BR_ShockTop2  
+Bone_BR_ShockTop1  
+Bone_BL_ShockTop2  
+Bone_BL_ShockTop1  
+Bone_FL_ShockTop2  
+Bone_FL_ShockTop1  
+Bone_FR_ShockTop2  
+Bone_FR_ShockTop1  
+Bone_FR_Axle  
+Bone_FR_ShockBottom  
+Bone_FL_Axle  
+Bone_FL_ShockBottom  
+Bone_BL_Axle  
+Bone_BL_ShockBottom  
+Bone_BR_Axle  
+Bone_BR_ShockBottom  
+Bone_BR_Wheel  
+Bone_BR_Link  
+Bone_BL_Wheel  
+Bone_BL_Link  
+Bone_FL_Wheel  
+Bone_FL_Link  
+Bone_FR_Wheel  
+Bone_FR_Link  
+
+[0014.00] Log:  Found texture for material 0: [DefaultMaterial] skin index: 0 
+[0014.00] Log: Bones digested - 25  Depth of hierarchy - 3
+[0014.20] Log: Chunk 0: 7059 rigid vertices, 0 soft vertices, 17 active bones
+[0014.39] Log: Section 0: Material=0, Chunk=0, 7072 triangles
+[0014.41] Log: -- imported successfully
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultAirIntake'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultBattery'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultBumper'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultCover'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultEngine'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultGasTank'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultRadio'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultServo'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultTransmission'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultTunePipe'.
+[0016.82] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultWheel'.
+[0016.87] Log: saving as ..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk
+[0016.87] Log: OBJ SavePackage: Generating thumbnails for [11] asset(s) in package [StarterRC] ([12] browsable assets)...
+[0016.88] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultAirIntake]
+[0016.89] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultBattery]
+[0016.90] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultBumper]
+[0016.90] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultCover]
+[0016.90] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultEngine]
+[0016.91] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultGasTank]
+[0016.91] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultRadio]
+[0016.91] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultServo]
+[0016.92] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultTransmission]
+[0016.92] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultTunePipe]
+[0016.93] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultWheel]
+[0016.93] Log: OBJ SavePackage: Finished generating thumbnails for package [StarterRC]
+[0016.93] Cmd: OBJ SAVEPACKAGE PACKAGE="StarterRC" FILE="..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk"
+[0017.43] Log: Save=493.129674
+[0017.43] Log: Moving '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC_save.tmp' to '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk'
+[0031.96] Log: Performing atomic reimport of [..\..\..\Content\Vehicles\StarterRC\DefaultAirIntake.FBX]
+[0031.96] Log: -- file on disk exists and is newer.  Performing import.
+[0031.96] Log: -- file on disk exists and is newer.  Performing import.
+[0031.97] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0032.03] Log: Loading FBX Scene from ..\..\..\Content\Vehicles\StarterRC\DefaultAirIntake.FBX
+[0032.04] Log: FBX Scene Loaded Succesfully
+[0032.08] Warning: [DefaultAirIntake, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0032.08] Log: -- imported successfully
+[0035.99] Log: Performing atomic reimport of [..\..\..\Content\Vehicles\StarterRC\DefaultBattery.FBX]
+[0035.99] Log: -- file on disk exists and is newer.  Performing import.
+[0035.99] Log: -- file on disk exists and is newer.  Performing import.
+[0035.99] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0036.07] Log: Loading FBX Scene from ..\..\..\Content\Vehicles\StarterRC\DefaultBattery.FBX
+[0036.10] Log: FBX Scene Loaded Succesfully
+[0036.12] Log: Triangulating static mesh GasTank
+[0036.13] Log: Triangulating static mesh SteeringServo
+[0036.23] Log: StaticMesh had 24 degenerates
+[0037.08] Warning: [DefaultBattery, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0037.08] Log: -- imported successfully
+[0063.02] Log: Performing atomic reimport of [..\..\..\Content\Vehicles\StarterRC\DefaultCover.FBX]
+[0063.02] Log: -- file on disk exists and is newer.  Performing import.
+[0063.02] Log: -- file on disk exists and is newer.  Performing import.
+[0063.02] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0063.10] Log: Loading FBX Scene from ..\..\..\Content\Vehicles\StarterRC\DefaultCover.FBX
+[0063.11] Log: FBX Scene Loaded Succesfully
+[0063.18] Warning: [DefaultCover, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0063.18] Log: -- imported successfully
+[0072.68] Exit: Preparing to exit.
+[0072.75] Exit: Editor shut down
+[0072.75] Exit: Transaction tracking system shut down
+[0072.87] Exit: Windows client shut down
+[0072.87] Exit: XAudio2 Device shut down.
+[0072.91] Exit: Object subsystem successfully closed.
+[0072.91] Log: Shutting down FaceFX...
+[0072.91] Log: FaceFX shutdown.
+[0072.93] Exit: Exiting.
+[0072.93] Log: Log file closed, 05/26/14 21:08:09

@@ -1,0 +1,179 @@
+Log: Log file open, 05/26/14 20:36:08
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: make -full
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.24] Init: Computer: ILYA-PC
+[0000.24] Init: User: Ilya
+[0000.24] Init: CPU Page size=4096, Processors=8
+[0000.24] Init: High frequency timer resolution =3.428076 MHz
+[0000.24] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.24] Log: Steam Client API Disabled!
+[0000.26] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.26] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.26] Init: Object subsystem initialized
+[0000.26] Log: Last hardware survey: Ver=-1, Date=0. Uploading again.
+[0001.61] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0001.61] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0001.65] Log: Shader platform (RHI): PC-D3D-SM3
+[0001.67] Log: PhysX GPU Support: DISABLED
+[0001.67] Init: Initializing FaceFX...
+[0001.67] Init: FaceFX 1.7.4 initialized.
+[0001.67] Init: Version: 12097
+[0001.67] Init: Epic Internal: 0
+[0001.67] Init: Compiled (32-bit): Feb 17 2014 13:29:45
+[0001.67] Init: Command line:  -full
+[0001.67] Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0001.67] Init: Character set: Unicode
+[0001.67] Log: Executing Class UnrealEd.MakeCommandlet
+[0001.67] Init: UEngine initialized
+[0001.68] Heading: --------------------Core - Release--------------------
+[0001.68] Log: Analyzing...
+[0001.68] Log: Loading global macros for Core
+[0001.73] Log: Success: Compiled 3049 line(s), 498 statement(s).
+
+[0001.73] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\Core.u'
+[0001.74] Log: Save=15.818786
+[0001.74] Log: Moving '..\..\UDKGame\Script\Core_save.tmp' to '..\..\UDKGame\Script\Core.u'
+[0001.74] Heading: --------------------Engine - Release--------------------
+[0001.76] Log: Analyzing...
+[0001.76] Log: Loading global macros for Engine
+[0001.86] Log: Undefining macro 'INCLUDE_GAME_STATS' at line 11
+[0003.47] Log: Success: Compiled 174227 line(s), 19471 statement(s).
+
+[0003.47] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\Engine.u'
+[0003.91] Log: Successfully upload UDK hardware survey to http://et.epicgames.com/PostUDKSurveyHandler.ashx in 3.29 seconds.
+[0003.91] Log: Save=444.926250
+[0003.91] Log: Moving '..\..\UDKGame\Script\Engine_save.tmp' to '..\..\UDKGame\Script\Engine.u'
+[0003.92] Heading: --------------------IpDrv - Release--------------------
+[0003.92] Log: Analyzing...
+[0003.92] Log: Loading global macros for IpDrv
+[0004.40] Log: Success: Compiled 43137 line(s), 3989 statement(s).
+
+[0004.40] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\IpDrv.u'
+[0004.49] Log: Save=86.689152
+[0004.49] Log: Moving '..\..\UDKGame\Script\IpDrv_save.tmp' to '..\..\UDKGame\Script\IpDrv.u'
+[0004.49] Heading: --------------------GFxUI - Release--------------------
+[0004.49] Log: Analyzing...
+[0004.49] Log: Loading global macros for GFxUI
+[0004.51] Log: Success: Compiled 1750 line(s), 326 statement(s).
+
+[0004.51] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\GFxUI.u'
+[0004.53] Log: Save=18.871810
+[0004.53] Log: Moving '..\..\UDKGame\Script\GFxUI_save.tmp' to '..\..\UDKGame\Script\GFxUI.u'
+[0004.53] Heading: --------------------GameFramework - Release--------------------
+[0004.53] Log: Analyzing...
+[0004.53] Log: Loading global macros for GameFramework
+[0004.89] Log: Success: Compiled 23990 line(s), 2540 statement(s).
+
+[0004.89] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\GameFramework.u'
+[0004.98] Log: Save=83.346752
+[0004.98] Log: Moving '..\..\UDKGame\Script\GameFramework_save.tmp' to '..\..\UDKGame\Script\GameFramework.u'
+[0004.98] Heading: --------------------UnrealEd - Release--------------------
+[0004.98] Log: Analyzing...
+[0004.98] Log: Loading global macros for UnrealEd
+[0005.36] Log: Success: Compiled 10589 line(s), 1113 statement(s).
+
+[0005.36] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\UnrealEd.u'
+[0005.40] Log: Save=41.376271
+[0005.40] Log: Moving '..\..\UDKGame\Script\UnrealEd_save.tmp' to '..\..\UDKGame\Script\UnrealEd.u'
+[0005.40] Heading: --------------------GFxUIEditor - Release--------------------
+[0005.40] Log: Analyzing...
+[0005.40] Log: Loading global macros for GFxUIEditor
+[0005.40] Log: Success: Compiled 237 line(s), 12 statement(s).
+
+[0005.40] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\GFxUIEditor.u'
+[0005.42] Log: Save=13.255249
+[0005.42] Log: Moving '..\..\UDKGame\Script\GFxUIEditor_save.tmp' to '..\..\UDKGame\Script\GFxUIEditor.u'
+[0005.42] Heading: --------------------WinDrv - Release--------------------
+[0005.42] Log: Analyzing...
+[0005.42] Log: Loading global macros for WinDrv
+[0005.43] Log: Success: Compiled 409 line(s), 67 statement(s).
+
+[0005.43] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\WinDrv.u'
+[0005.44] Log: Save=14.602068
+[0005.44] Log: Moving '..\..\UDKGame\Script\WinDrv_save.tmp' to '..\..\UDKGame\Script\WinDrv.u'
+[0005.44] Heading: --------------------OnlineSubsystemPC - Release--------------------
+[0005.44] Log: Analyzing...
+[0005.44] Log: Loading global macros for OnlineSubsystemPC
+[0005.46] Log: Success: Compiled 2018 line(s), 231 statement(s).
+
+[0005.46] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\OnlineSubsystemPC.u'
+[0005.48] Log: Save=19.711932
+[0005.48] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemPC_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemPC.u'
+[0005.48] Heading: --------------------OnlineSubsystemSteamworks - Release--------------------
+[0005.48] Log: Analyzing...
+[0005.48] Log: Loading global macros for OnlineSubsystemSteamworks
+[0005.53] Log: Success: Compiled 5497 line(s), 535 statement(s).
+
+[0005.53] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\OnlineSubsystemSteamworks.u'
+[0005.56] Log: Save=27.654288
+[0005.56] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemSteamworks_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemSteamworks.u'
+[0005.56] Heading: --------------------OnlineSubsystemGameCenter - Release--------------------
+[0005.56] Log: Analyzing...
+[0005.56] Log: Loading global macros for OnlineSubsystemGameCenter
+[0005.60] Log: Success: Compiled 3438 line(s), 409 statement(s).
+
+[0005.60] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\OnlineSubsystemGameCenter.u'
+[0005.62] Log: Save=24.083772
+[0005.62] Log: Moving '..\..\UDKGame\Script\OnlineSubsystemGameCenter_save.tmp' to '..\..\UDKGame\Script\OnlineSubsystemGameCenter.u'
+[0005.62] Heading: --------------------SubstanceAir - Release--------------------
+[0005.62] Log: Analyzing...
+[0005.62] Log: Loading global macros for SubstanceAir
+[0005.63] Log: Success: Compiled 308 line(s), 51 statement(s).
+
+[0005.63] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\SubstanceAir.u'
+[0005.65] Log: Save=17.893711
+[0005.65] Log: Moving '..\..\UDKGame\Script\SubstanceAir_save.tmp' to '..\..\UDKGame\Script\SubstanceAir.u'
+[0005.65] Heading: --------------------SubstanceAirEd - Release--------------------
+[0005.65] Log: Analyzing...
+[0005.65] Log: Loading global macros for SubstanceAirEd
+[0005.65] Log: Success: Compiled 112 line(s), 5 statement(s).
+
+[0005.65] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\SubstanceAirEd.u'
+[0005.66] Log: Save=14.034695
+[0005.66] Log: Moving '..\..\UDKGame\Script\SubstanceAirEd_save.tmp' to '..\..\UDKGame\Script\SubstanceAirEd.u'
+[0005.66] Heading: --------------------RevampedGame - Release--------------------
+[0005.66] Warning: Warning, Can't find files matching G:\Revamped\UDK\Binaries\Win32\..\..\Development\Src\RevampedGame\Classes\*.uc
+[0005.67] Heading: --------------------UDKBase - Release--------------------
+[0005.67] Log: Analyzing...
+[0005.67] Log: Loading global macros for UDKBase
+[0005.80] Log: Success: Compiled 10417 line(s), 1605 statement(s).
+
+[0005.80] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\UDKBase.u'
+[0005.89] Log: Save=87.992215
+[0005.89] Log: Moving '..\..\UDKGame\Script\UDKBase_save.tmp' to '..\..\UDKGame\Script\UDKBase.u'
+[0005.89] Heading: --------------------Revamped - Release--------------------
+[0005.89] Log: Analyzing...
+[0005.89] Log: Loading global macros for Revamped
+[0005.89] Warning: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(15) : Warning, ClassProperty Engine.GameInfo:PlayerControllerClass: unresolved reference to 'class'RevampedGame.RevampedPlayerController''
+[0005.89] Warning: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(15) : Warning, Invalid property value in defaults: 	PlayerControllerClass=class'RevampedGame.RevampedPlayerController'
+[0005.89] Warning: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(16) : Warning, ClassProperty Engine.GameInfo:DefaultPawnClass: unresolved reference to 'class'RevampedGame.RevampedPawn''
+[0005.89] Warning: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(16) : Warning, Invalid property value in defaults: 	DefaultPawnClass=class'RevampedGame.RevampedPawn'
+[0005.89] Log: Success: Compiled 27 line(s), 5 statement(s).
+
+[0005.89] Log: Scripts successfully compiled - saving package 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Script\Revamped.u'
+[0005.92] Log: Save=31.230638
+[0005.92] Log: Moving '..\..\UDKGame\Script\Revamped_save.tmp' to '..\..\UDKGame\Script\Revamped.u'
+[0005.98] Log: 
+[0005.98] Log: Warning/Error Summary
+[0005.98] Log: ---------------------
+[0005.98] Log: Warning, Can't find files matching G:\Revamped\UDK\Binaries\Win32\..\..\Development\Src\RevampedGame\Classes\*.uc
+[0005.98] Log: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(15) : Warning, ClassProperty Engine.GameInfo:PlayerControllerClass: unresolved reference to 'class'RevampedGame.RevampedPlayerController''
+[0005.98] Log: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(15) : Warning, Invalid property value in defaults: 	PlayerControllerClass=class'RevampedGame.RevampedPlayerController'
+[0005.98] Log: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(16) : Warning, ClassProperty Engine.GameInfo:DefaultPawnClass: unresolved reference to 'class'RevampedGame.RevampedPawn''
+[0005.98] Log: G:\Revamped\UDK\Development\Src\Revamped\Classes\RevampedGameInfo.uc(16) : Warning, Invalid property value in defaults: 	DefaultPawnClass=class'RevampedGame.RevampedPawn'
+[0005.98] Log: 
+[0005.98] Log: Success - 0 error(s), 5 warning(s)
+[0005.98] Log: 
+Execution of commandlet took:  4.31 seconds
+[0005.98] Exit: Preparing to exit.
+[0006.02] Exit: Object subsystem successfully closed.
+[0006.02] Log: Shutting down FaceFX...
+[0006.02] Log: FaceFX shutdown.
+[0006.03] Exit: Exiting.
+[0006.03] Log: Log file closed, 05/26/14 20:36:14

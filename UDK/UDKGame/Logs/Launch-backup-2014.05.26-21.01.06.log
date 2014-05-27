@@ -1,0 +1,204 @@
+Log: Log file open, 05/26/14 20:48:35
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.22] Init: Computer: ILYA-PC
+[0000.22] Init: User: Ilya
+[0000.22] Init: CPU Page size=4096, Processors=8
+[0000.22] Init: High frequency timer resolution =3.428076 MHz
+[0000.22] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.22] Log: Steam Client API Disabled!
+[0000.24] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.24] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.24] Init: Object subsystem initialized
+[0000.26] Log: SystemSettings based on: SystemSettings
+[0000.27] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0000.27] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0000.30] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.39] Log: PhysX GPU Support: DISABLED
+[0000.39] Init: Initializing FaceFX...
+[0000.39] Init: FaceFX 1.7.4 initialized.
+[0001.14] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0001.15] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0001.15] Init: Finished loading startup packages in 0.67 seconds
+[0001.15] Log: 55335 objects as part of root set at end of initial load.
+[0001.15] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.74] Log: Supported Consoles:
+[0001.74] Log:   IPhone
+[0001.74] Log:   Mac
+[0001.74] Log:   PC
+[0001.74] Log: Initializing Engine...
+[0001.79] Log: Encountered missing default brush - spawning new one
+[0001.79] Init: UEngine initialized
+[0001.79] Log: Primary PhysX scene will be in software.
+[0001.79] Log: Creating Primary PhysX Scene.
+[0001.80] Init: Transaction tracking system initialized
+[0001.80] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0001.80] Log: Can't find edit package 'OnlineSubsystemLive'
+[0001.82] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0001.83] Init: XAudio2Device initialized.
+[0001.85] Init: Client initialized
+[0001.85] Init: Editor engine initialized
+[0001.94] Log: Initializing Engine Completed
+[0001.94] Log: >>>>>>>>>>>>>> Initial startup: 1.94s <<<<<<<<<<<<<<<
+[0001.98] Cmd: MODE MAPEXT=udk
+[0002.03] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0002.65] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0002.65] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0003.42] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0003.50] Log: Encountered missing default brush - spawning new one
+[0003.61] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0003.64] Log: -- Checking Building LODs
+[0003.64] Log: Primary PhysX scene will be in software.
+[0003.64] Log: Creating Primary PhysX Scene.
+[0003.64] Log: Finished looking for orphan Actors (0.001 secs)
+[0003.65] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0003.65] Log: TIMER ALL OF INIT : [3.249235]
+[0069.60] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultAirIntake.FBX)
+[0069.62] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0069.65] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultAirIntake.FBX
+[0069.67] Log: FBX Scene Loaded Succesfully
+[0069.69] Warning: [DefaultAirIntake, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0069.71] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultBattery.FBX)
+[0069.72] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0069.73] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultBattery.FBX
+[0069.74] Log: FBX Scene Loaded Succesfully
+[0069.74] Warning: [DefaultBattery, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0069.75] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultBumper.FBX)
+[0069.76] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0069.77] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultBumper.FBX
+[0069.78] Log: FBX Scene Loaded Succesfully
+[0069.79] Warning: [DefaultBumper, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0069.80] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultCover.FBX)
+[0069.80] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0069.81] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultCover.FBX
+[0069.82] Log: FBX Scene Loaded Succesfully
+[0069.86] Warning: [DefaultCover, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0069.87] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultEngine.FBX)
+[0069.87] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0069.88] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultEngine.FBX
+[0069.89] Log: FBX Scene Loaded Succesfully
+[0069.90] Warning: [DefaultEngine, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0069.91] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultGasTank.FBX)
+[0069.91] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0069.93] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultGasTank.FBX
+[0069.93] Log: FBX Scene Loaded Succesfully
+[0069.94] Log: Triangulating static mesh GasTank
+[0069.94] Warning: [DefaultGasTank, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0069.95] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultRadio.FBX)
+[0069.95] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0069.97] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultRadio.FBX
+[0069.97] Log: FBX Scene Loaded Succesfully
+[0069.98] Log: StaticMesh had 2 degenerates
+[0069.98] Warning: [DefaultRadio, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0069.99] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultServo.FBX)
+[0070.00] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0070.01] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultServo.FBX
+[0070.02] Log: FBX Scene Loaded Succesfully
+[0070.02] Log: Triangulating static mesh SteeringServo
+[0070.02] Warning: [DefaultServo, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0070.03] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultTransmission.FBX)
+[0070.04] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0070.05] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultTransmission.FBX
+[0070.06] Log: FBX Scene Loaded Succesfully
+[0070.07] Warning: [DefaultTransmission, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0070.08] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultTunePipe.FBX)
+[0070.09] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0070.10] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultTunePipe.FBX
+[0070.11] Log: FBX Scene Loaded Succesfully
+[0070.11] Log: StaticMesh had 16 degenerates
+[0070.11] Warning: [DefaultTunePipe, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0070.12] Log: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\DefaultWheel.FBX)
+[0070.13] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0070.14] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\DefaultWheel.FBX
+[0070.15] Log: FBX Scene Loaded Succesfully
+[0070.17] Warning: [DefaultWheel, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0110.40] Log: saving as ..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk
+[0110.40] Log: OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [StarterRC] ([12] browsable assets)...
+[0110.43] Log: OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh StarterRC.SkeletalMesh.StarterBody]
+[0110.43] Log: OBJ SavePackage: Finished generating thumbnails for package [StarterRC]
+[0110.44] Cmd: OBJ SAVEPACKAGE PACKAGE="StarterRC" FILE="..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk"
+[0110.91] Log: Save=464.436028
+[0110.91] Log: Moving '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC_save.tmp' to '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk'
+[0138.29] Log: Actor Factory created DefaultCover
+[0141.71] Cmd: MODE WIDGETMODECYCLE
+[0153.16] Cmd: MODE WIDGETMODECYCLE
+[0153.64] Cmd: MODE WIDGETMODECYCLE
+[0234.82] Log: Performing atomic reimport of [..\..\..\Content\Vehicles\StarterRC\DefaultCover.FBX]
+[0234.82] Log: -- file on disk exists but has an equal or older timeStamp.
+[0235.88] Log: -- The user has opted to import regardless.
+[0235.88] Log: -- file on disk exists and is newer.  Performing import.
+[0235.89] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0235.91] Log: Loading FBX Scene from ..\..\..\Content\Vehicles\StarterRC\DefaultCover.FBX
+[0235.92] Log: FBX Scene Loaded Succesfully
+[0236.00] Warning: [DefaultCover, LOD 0] missing light map UVs (Res 32, CoordIndex 1)
+[0236.00] Log: -- imported successfully
+[0240.55] Log: saving as ..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk
+[0240.56] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [StarterRC] ([12] browsable assets)...
+[0240.57] Log: OBJ SavePackage: Finished generating thumbnails for package [StarterRC]
+[0240.58] Cmd: OBJ SAVEPACKAGE PACKAGE="StarterRC" FILE="..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk"
+[0240.62] Log: Save=37.315392
+[0240.62] Log: Moving '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC_save.tmp' to '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk'
+[0294.73] Exit: Preparing to exit.
+[0294.79] Exit: Editor shut down
+[0294.79] Exit: Transaction tracking system shut down
+[0294.93] Exit: Windows client shut down
+[0294.94] Exit: XAudio2 Device shut down.
+[0294.98] Exit: Object subsystem successfully closed.
+[0294.98] Log: Shutting down FaceFX...
+[0294.98] Log: FaceFX shutdown.
+[0295.01] Exit: Exiting.
+[0295.01] Log: Log file closed, 05/26/14 20:53:30

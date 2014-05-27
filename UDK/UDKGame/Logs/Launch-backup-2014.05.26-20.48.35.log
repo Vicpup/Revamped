@@ -1,0 +1,71 @@
+Log: Log file open, 05/26/14 20:46:34
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.23] Init: Computer: ILYA-PC
+[0000.23] Init: User: Ilya
+[0000.23] Init: CPU Page size=4096, Processors=8
+[0000.23] Init: High frequency timer resolution =3.428076 MHz
+[0000.23] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.23] Log: Steam Client API Disabled!
+[0000.25] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.25] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.25] Init: Object subsystem initialized
+[0000.26] Log: SystemSettings based on: SystemSettings
+[0000.27] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0000.27] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0000.30] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.38] Log: PhysX GPU Support: DISABLED
+[0000.39] Init: Initializing FaceFX...
+[0000.39] Init: FaceFX 1.7.4 initialized.
+[0001.16] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0001.16] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0001.16] Init: Finished loading startup packages in 0.68 seconds
+[0001.16] Log: 55335 objects as part of root set at end of initial load.
+[0001.16] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.75] Log: Supported Consoles:
+[0001.75] Log:   IPhone
+[0001.75] Log:   Mac
+[0001.75] Log:   PC
+[0001.75] Log: Initializing Engine...
+[0001.80] Log: Encountered missing default brush - spawning new one
+[0001.80] Init: UEngine initialized
+[0001.80] Log: Primary PhysX scene will be in software.
+[0001.80] Log: Creating Primary PhysX Scene.
+[0001.80] Init: Transaction tracking system initialized
+[0001.81] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0001.81] Log: Can't find edit package 'OnlineSubsystemLive'
+[0001.83] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0001.84] Init: XAudio2Device initialized.
+[0001.86] Init: Client initialized
+[0001.86] Init: Editor engine initialized
+[0001.94] Log: Initializing Engine Completed
+[0001.94] Log: >>>>>>>>>>>>>> Initial startup: 1.94s <<<<<<<<<<<<<<<
+[0001.98] Cmd: MODE MAPEXT=udk
+[0002.04] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0002.66] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0002.66] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0003.47] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0003.54] Log: Encountered missing default brush - spawning new one
+[0003.66] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0003.69] Log: -- Checking Building LODs
+[0003.69] Log: Primary PhysX scene will be in software.
+[0003.69] Log: Creating Primary PhysX Scene.
+[0003.69] Log: Finished looking for orphan Actors (0.001 secs)
+[0003.70] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0003.70] Log: TIMER ALL OF INIT : [3.300465]
+[0011.94] Exit: Preparing to exit.
+[0012.01] Exit: Editor shut down
+[0012.01] Exit: Transaction tracking system shut down
+[0012.15] Exit: Windows client shut down
+[0012.15] Exit: XAudio2 Device shut down.
+[0012.19] Exit: Object subsystem successfully closed.
+[0012.19] Log: Shutting down FaceFX...
+[0012.19] Log: FaceFX shutdown.
+[0012.22] Exit: Exiting.
+[0012.22] Log: Log file closed, 05/26/14 20:46:46

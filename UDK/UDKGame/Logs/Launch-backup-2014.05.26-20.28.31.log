@@ -1,0 +1,61 @@
+Log: Log file open, 05/26/14 20:27:26
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.32] Init: Computer: ILYA-PC
+[0000.32] Init: User: Ilya
+[0000.32] Init: CPU Page size=4096, Processors=8
+[0000.32] Init: High frequency timer resolution =3.428076 MHz
+[0000.32] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.32] Log: Steam Client API Disabled!
+[0000.35] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.35] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.35] Init: Object subsystem initialized
+[0000.35] Log: Last hardware survey: Ver=12097, Date=20140526. Uploading again.
+[0001.93] Log: SystemSettings based on: SystemSettings
+[0001.99] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0001.99] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0002.12] Log: Shader platform (RHI): PC-D3D-SM3
+[0005.80] Log: Successfully upload UDK hardware survey to http://et.epicgames.com/PostUDKSurveyHandler.ashx in 3.54 seconds.
+[0005.80] Log: PhysX GPU Support: DISABLED
+[0005.92] Init: Initializing FaceFX...
+[0005.92] Init: FaceFX 1.7.4 initialized.
+[0008.46] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0008.52] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0008.55] Init: Finished loading startup packages in 1.63 seconds
+[0008.55] Log: 55335 objects as part of root set at end of initial load.
+[0008.55] Log: 0 out of 0 bytes used by permanent object pool.
+[0009.11] Log: Supported Consoles:
+[0009.11] Log:   IPhone
+[0009.11] Log:   Mac
+[0009.11] Log:   PC
+[0009.11] Log: Initializing Engine...
+[0009.20] Log: Encountered missing default brush - spawning new one
+[0009.21] Init: UEngine initialized
+[0009.21] Log: Primary PhysX scene will be in software.
+[0009.21] Log: Creating Primary PhysX Scene.
+[0009.28] Init: Transaction tracking system initialized
+[0009.29] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0009.29] Log: Can't find edit package 'OnlineSubsystemLive'
+[0009.40] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0009.75] Init: XAudio2Device initialized.
+[0010.01] Init: Client initialized
+[0010.01] Init: Editor engine initialized
+[0010.35] Log: Initializing Engine Completed
+[0010.35] Log: >>>>>>>>>>>>>> Initial startup: 10.35s <<<<<<<<<<<<<<<
+[0010.61] Cmd: MODE MAPEXT=udk
+[0010.96] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimBlendByIdle': Failed to find object 'Class UTGame.UTAnimBlendByIdle'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimBlendBySlotActive': Failed to find object 'Class UTGame.UTAnimBlendBySlotActive'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimBlendByTurnInPlace': Failed to find object 'Class UTGame.UTAnimBlendByTurnInPlace'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimBlendByWeapType': Failed to find object 'Class UTGame.UTAnimBlendByWeapType'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimBlendByWeapType': Failed to find object 'Class UTGame.UTAnimBlendByWeapType'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimNodeCopyBoneTranslation': Failed to find object 'Class UTGame.UTAnimNodeCopyBoneTranslation'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0011.43] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Clas

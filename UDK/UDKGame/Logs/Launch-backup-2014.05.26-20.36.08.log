@@ -1,0 +1,202 @@
+Log: Log file open, 05/26/14 20:28:31
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.22] Init: Computer: ILYA-PC
+[0000.22] Init: User: Ilya
+[0000.22] Init: CPU Page size=4096, Processors=8
+[0000.22] Init: High frequency timer resolution =3.428076 MHz
+[0000.22] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.22] Log: Steam Client API Disabled!
+[0000.24] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.24] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.24] Init: Object subsystem initialized
+[0000.25] Log: SystemSettings based on: SystemSettings
+[0000.26] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0000.26] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0000.29] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.37] Log: PhysX GPU Support: DISABLED
+[0000.38] Init: Initializing FaceFX...
+[0000.38] Init: FaceFX 1.7.4 initialized.
+[0001.13] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0001.14] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0001.14] Init: Finished loading startup packages in 0.67 seconds
+[0001.14] Log: 55335 objects as part of root set at end of initial load.
+[0001.14] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.73] Log: Supported Consoles:
+[0001.73] Log:   IPhone
+[0001.73] Log:   Mac
+[0001.73] Log:   PC
+[0001.73] Log: Initializing Engine...
+[0001.78] Log: Encountered missing default brush - spawning new one
+[0001.78] Init: UEngine initialized
+[0001.78] Log: Primary PhysX scene will be in software.
+[0001.78] Log: Creating Primary PhysX Scene.
+[0001.78] Init: Transaction tracking system initialized
+[0001.79] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0001.79] Log: Can't find edit package 'OnlineSubsystemLive'
+[0001.80] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0001.81] Init: XAudio2Device initialized.
+[0001.83] Init: Client initialized
+[0001.84] Init: Editor engine initialized
+[0001.92] Log: Initializing Engine Completed
+[0001.92] Log: >>>>>>>>>>>>>> Initial startup: 1.92s <<<<<<<<<<<<<<<
+[0001.95] Cmd: MODE MAPEXT=udk
+[0002.01] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimBlendByIdle': Failed to find object 'Class UTGame.UTAnimBlendByIdle'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimBlendBySlotActive': Failed to find object 'Class UTGame.UTAnimBlendBySlotActive'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimBlendByTurnInPlace': Failed to find object 'Class UTGame.UTAnimBlendByTurnInPlace'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimBlendByWeapType': Failed to find object 'Class UTGame.UTAnimBlendByWeapType'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimBlendByWeapType': Failed to find object 'Class UTGame.UTAnimBlendByWeapType'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimNodeCopyBoneTranslation': Failed to find object 'Class UTGame.UTAnimNodeCopyBoneTranslation'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimNodeSequence': Failed to find object 'Class UTGame.UTAnimNodeSequence'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimNodeSeqWeap': Failed to find object 'Class UTGame.UTAnimNodeSeqWeap'
+[0002.19] Warning: Failed to load 'Class UTGame.UTAnimNodeSeqWeap': Failed to find object 'Class UTGame.UTAnimNodeSeqWeap'
+[0002.19] Warning: Failed to load 'Class utgamecontent.UTGameCrowdAgent': Failed to find object 'Class utgamecontent.UTGameCrowdAgent'
+[0002.28] Log: Game asset database maintenance completed successfully.
+[0002.89] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0002.89] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0003.79] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0003.87] Log: Encountered missing default brush - spawning new one
+[0003.98] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0004.02] Log: -- Checking Building LODs
+[0004.02] Log: Primary PhysX scene will be in software.
+[0004.02] Log: Creating Primary PhysX Scene.
+[0004.02] Log: Finished looking for orphan Actors (0.001 secs)
+[0004.02] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0004.02] Log: TIMER ALL OF INIT : [3.638041]
+[0058.27] Log: FactoryCreateBinary: SkeletalMesh with FbxFactory (0 0 G:\Revamped\Content\StarterRC\StarterBody.FBX)
+[0060.02] Log: Loading FBX Scene from G:\Revamped\Content\StarterRC\StarterBody.FBX
+[0060.05] Log: FBX Scene Loaded Succesfully
+[0060.08] Warning: Using default materials for material slot
+[0060.08] Warning: FBX bind pose BIND_POSES is invalid.  It will be ignored
+[0060.08] Log: Warning: The following bones are missing from the bind pose.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+Bone_Root  
+Bone_BR_ShockTop2  
+Bone_BR_ShockTop1  
+Bone_BL_ShockTop2  
+Bone_BL_ShockTop1  
+Bone_FL_ShockTop2  
+Bone_FL_ShockTop1  
+Bone_FR_ShockTop2  
+Bone_FR_ShockTop1  
+Bone_FR_Axle  
+Bone_FR_ShockBottom  
+Bone_FL_Axle  
+Bone_FL_ShockBottom  
+Bone_BL_Axle  
+Bone_BL_ShockBottom  
+Bone_BR_Axle  
+Bone_BR_ShockBottom  
+Bone_BR_Wheel  
+Bone_BR_Link  
+Bone_BL_Wheel  
+Bone_BL_Link  
+Bone_FL_Wheel  
+Bone_FL_Link  
+Bone_FR_Wheel  
+Bone_FR_Link  
+
+[0060.10] Log:  Found texture for material 0: [DefaultMaterial] skin index: 0 
+[0060.10] Log: Bones digested - 25  Depth of hierarchy - 3
+[0060.37] Log: Chunk 0: 9514 rigid vertices, 0 soft vertices, 17 active bones
+[0060.63] Log: Section 0: Material=0, Chunk=0, 7064 triangles
+[0068.44] Log: NO_EXISTING: , Vehicles.upk, ..\..\UDKGame\Content
+[0078.94] Log: NO_EXISTING: , Vehicles.upk, ..\..\UDKGame\Content
+[0165.54] Log: FactoryCreateBinary: SkeletalMesh with FbxFactory (0 0 G:\Revamped\Content\Vehicles\StarterRC\StarterBody.FBX)
+[0166.71] Log: Loading FBX Scene from G:\Revamped\Content\Vehicles\StarterRC\StarterBody.FBX
+[0166.74] Log: FBX Scene Loaded Succesfully
+[0166.74] Warning: Using default materials for material slot
+[0166.74] Warning: FBX bind pose BIND_POSES is invalid.  It will be ignored
+[0166.74] Log: Warning: The following bones are missing from the bind pose.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+Bone_Root  
+Bone_BR_ShockTop2  
+Bone_BR_ShockTop1  
+Bone_BL_ShockTop2  
+Bone_BL_ShockTop1  
+Bone_FL_ShockTop2  
+Bone_FL_ShockTop1  
+Bone_FR_ShockTop2  
+Bone_FR_ShockTop1  
+Bone_FR_Axle  
+Bone_FR_ShockBottom  
+Bone_FL_Axle  
+Bone_FL_ShockBottom  
+Bone_BL_Axle  
+Bone_BL_ShockBottom  
+Bone_BR_Axle  
+Bone_BR_ShockBottom  
+Bone_BR_Wheel  
+Bone_BR_Link  
+Bone_BL_Wheel  
+Bone_BL_Link  
+Bone_FL_Wheel  
+Bone_FL_Link  
+Bone_FR_Wheel  
+Bone_FR_Link  
+
+[0166.75] Log:  Found texture for material 0: [DefaultMaterial] skin index: 0 
+[0166.75] Log: Bones digested - 25  Depth of hierarchy - 3
+[0167.02] Log: Chunk 0: 9514 rigid vertices, 0 soft vertices, 17 active bones
+[0167.29] Log: Section 0: Material=0, Chunk=0, 7064 triangles
+[0177.58] Log: NO_EXISTING: , Vehicles.upk, ..\..\UDKGame\Content
+[0181.91] Log: saving as G:\Revamped\Content\Vehicles\Vehicles.upk
+[0181.91] Log: OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [Vehicles] ([1] browsable assets)...
+[0181.92] Log: OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh Vehicles.StarterRC.StarterBody]
+[0181.93] Log: OBJ SavePackage: Finished generating thumbnails for package [Vehicles]
+[0181.93] Cmd: OBJ SAVEPACKAGE PACKAGE="Vehicles" FILE="G:\Revamped\Content\Vehicles\Vehicles.upk"
+[0181.97] Log: Save=41.972815
+[0181.97] Log: Moving 'G:\Revamped\Content\Vehicles\Vehicles_save.tmp' to 'G:\Revamped\Content\Vehicles\Vehicles.upk'
+[0212.56] Cmd: nxvis PHYSX_CLEAR_ALL
+[0212.56] Log: Clearing all PhysX Debug Flags.
+[0212.56] Cmd: apexvis APEX_CLEAR_ALL
+[0212.56] DevPhysics: Apex Debug (Scene 0): apexvis APEX_CLEAR_ALL FALSE
+[0212.58] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom0':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom0':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom1':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom1':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom2':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom2':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0212.58] Log: Primary PhysX scene will be in software.
+[0212.58] Log: Creating Primary PhysX Scene.
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_BR_ShockTop2 Bone: Bone_BR_ShockTop1 Size: 10.806499
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_BL_ShockTop2 Bone: Bone_BL_ShockTop1 Size: 10.808171
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_FL_ShockTop2 Bone: Bone_FL_ShockTop1 Size: 10.797928
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_FR_ShockTop2 Bone: Bone_FR_ShockTop1 Size: 10.794600
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_BR_Wheel Bone: Bone_BR_Link Size: 9.057370
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_BL_Wheel Bone: Bone_BL_Link Size: 9.098036
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_FL_Wheel Bone: Bone_FL_Link Size: 9.057370
+[0244.14] Log: -------------------------------------------------
+[0244.14] Log: Parent: Bone_FR_Wheel Bone: Bone_FR_Link Size: 9.098040
+[0244.15] Log: Primary PhysX scene will be in software.
+[0244.15] Log: Creating Primary PhysX Scene.
+[0280.02] Exit: Preparing to exit.
+[0280.09] Exit: Editor shut down
+[0280.09] Exit: Transaction tracking system shut down
+[0280.22] Exit: Windows client shut down
+[0280.23] Exit: XAudio2 Device shut down.
+[0280.28] Exit: Object subsystem successfully closed.
+[0280.29] Log: Shutting down FaceFX...
+[0280.29] Log: FaceFX shutdown.
+[0280.32] Exit: Exiting.
+[0280.32] Log: Log file closed, 05/26/14 20:33:11

@@ -1,0 +1,445 @@
+Log: Log file open, 05/26/14 21:17:11
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.23] Init: Computer: ILYA-PC
+[0000.23] Init: User: Ilya
+[0000.23] Init: CPU Page size=4096, Processors=8
+[0000.23] Init: High frequency timer resolution =3.428076 MHz
+[0000.23] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.23] Log: Steam Client API Disabled!
+[0000.25] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.25] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.26] Init: Object subsystem initialized
+[0000.27] Log: SystemSettings based on: SystemSettings
+[0000.28] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0000.28] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0000.30] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.39] Log: PhysX GPU Support: DISABLED
+[0000.39] Init: Initializing FaceFX...
+[0000.39] Init: FaceFX 1.7.4 initialized.
+[0001.14] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0001.15] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0001.15] Init: Finished loading startup packages in 0.66 seconds
+[0001.15] Log: 55335 objects as part of root set at end of initial load.
+[0001.15] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.74] Log: Supported Consoles:
+[0001.74] Log:   IPhone
+[0001.74] Log:   Mac
+[0001.74] Log:   PC
+[0001.74] Log: Initializing Engine...
+[0001.79] Log: Encountered missing default brush - spawning new one
+[0001.79] Init: UEngine initialized
+[0001.79] Log: Primary PhysX scene will be in software.
+[0001.79] Log: Creating Primary PhysX Scene.
+[0001.80] Init: Transaction tracking system initialized
+[0001.81] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0001.81] Log: Can't find edit package 'OnlineSubsystemLive'
+[0001.82] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0001.83] Init: XAudio2Device initialized.
+[0001.86] Init: Client initialized
+[0001.86] Init: Editor engine initialized
+[0001.94] Log: Initializing Engine Completed
+[0001.94] Log: >>>>>>>>>>>>>> Initial startup: 1.94s <<<<<<<<<<<<<<<
+[0001.98] Cmd: MODE MAPEXT=udk
+[0002.03] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0002.63] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0002.63] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0003.44] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0003.54] Log: Encountered missing default brush - spawning new one
+[0003.66] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0003.70] Log: -- Checking Building LODs
+[0003.70] Log: Primary PhysX scene will be in software.
+[0003.70] Log: Creating Primary PhysX Scene.
+[0003.70] Log: Finished looking for orphan Actors (0.001 secs)
+[0003.70] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0003.70] Log: TIMER ALL OF INIT : [3.303337]
+[0011.35] Cmd: POLY SELECT REVERSE
+[0011.78] Cmd: POLY SELECT ADJACENT WALLS
+[0012.19] Cmd: ACTOR SELECT MATCHINGSTATICMESH
+[0012.57] Cmd: POLY SELECT MEMORY RECALL
+[0013.04] Cmd: ACTOR SELECT ALL
+[0013.04] Cmd: POLY SELECT ALL
+[0013.42] Cmd: POLY SELECT ALL
+[0013.59] Cmd: DUPLICATE
+[0013.59] Cmd: ACTOR DUPLICATE
+[0013.88] Cmd: POLY SELECT ADJACENT FLOORS
+[0014.24] Cmd: ACTOR SELECT MATCHINGSTATICMESH ALLCLASSES
+[0014.47] Cmd: POLY SELECT MEMORY XOR
+[0014.63] Cmd: POLY SELECT ADJACENT COPLANARS
+[0019.62] Cmd: POLY SELECT ADJACENT COPLANARS
+[0019.87] Cmd: POLY SELECT ADJACENT COPLANARS
+[0020.22] Cmd: GROUPS UNGROUP
+[0020.49] Cmd: GROUPS UNGROUP
+[0020.81] Cmd: POLY SELECT MATCHING BRUSH
+[0021.37] Cmd: GROUPS UNGROUP
+[0021.37] Cmd: ACTOR HIDE UNSELECTED
+[0022.12] Cmd: GROUPS UNGROUP
+[0022.13] Cmd: ACTOR HIDE UNSELECTED
+[0022.52] Cmd: ACTOR HIDE UNSELECTED
+[0022.90] Cmd: GROUPS UNGROUP
+[0023.38] Cmd: ACTOR HIDE UNSELECTED
+[0023.89] Cmd: POLY SELECT ADJACENT SLANTS
+[0024.32] Cmd: POLY SELECT MATCHING TEXTURE
+[0024.63] Cmd: GROUPS UNGROUP
+[0024.95] Cmd: ACTOR HIDE UNSELECTED
+[0025.27] Cmd: POLY SELECT MATCHING BRUSH
+[0027.71] Cmd: GROUPS UNGROUP
+[0028.03] Cmd: GROUPS UNGROUP
+[0028.28] Cmd: POLY SELECT ADJACENT FLOORS
+[0028.57] Cmd: POLY SELECT ADJACENT FLOORS
+[0028.88] Cmd: ACTOR HIDE UNSELECTED
+[0029.13] Cmd: ACTOR HIDE UNSELECTED
+[0029.43] Cmd: POLY SELECT ADJACENT SLANTS
+[0029.70] Cmd: POLY SELECT ADJACENT SLANTS
+[0029.96] Cmd: POLY SELECT MATCHING TEXTURE
+[0030.20] Cmd: POLY SELECT MATCHING TEXTURE
+[0030.45] Cmd: POLY SELECT MEMORY RECALL
+[0030.70] Cmd: POLY SELECT MEMORY RECALL
+[0030.96] Cmd: ACTOR SELECT MATCHINGSTATICMESH
+[0031.18] Cmd: ACTOR SELECT MATCHINGSTATICMESH
+[0031.48] Cmd: POLY SELECT MATCHING BRUSH
+[0031.74] Cmd: POLY SELECT MATCHING BRUSH
+[0049.64] Cmd: MODE SHOWBRUSHMARKERPOLYS=1
+[0053.72] Cmd: POLY SELECT ADJACENT FLOORS
+[0054.09] Cmd: GROUPS UNGROUP
+[0055.86] Cmd: POLY SELECT ADJACENT COPLANARS
+[0056.26] Cmd: POLY SELECT ADJACENT COPLANARS
+[0056.57] Cmd: DUPLICATE
+[0056.57] Cmd: ACTOR DUPLICATE
+[0057.00] Cmd: POLY SELECT ALL
+[0057.40] Cmd: POLY SELECT MEMORY XOR
+[0057.40] Cmd: POLY SELECT ADJACENT COPLANARS
+[0058.00] Cmd: POLY SELECT MATCHING BRUSH
+[0058.79] Cmd: POLY SELECT ADJACENT FLOORS
+[0059.61] Cmd: POLY SELECT ADJACENT FLOORS
+[0059.61] Cmd: GROUPS UNGROUP
+[0059.98] Cmd: GROUPS UNGROUP
+[0061.39] Cmd: POLY SELECT MATCHING BRUSH
+[0061.80] Cmd: SELECT NONE
+[0062.20] Cmd: POLY SELECT ADJACENT ALL
+[0062.60] Cmd: ACTOR HIDE UNSELECTED
+[0062.97] Cmd: POLY SELECT MEMORY UNION
+[0063.34] Cmd: POLY SELECT ADJACENT SLANTS
+[0063.76] Cmd: POLY SELECT MATCHING TEXTURE
+[0063.76] Cmd: POLY SELECT ADJACENT SLANTS
+[0064.14] Cmd: POLY SELECT MATCHING TEXTURE
+[0064.38] Cmd: POLY SELECT MEMORY RECALL
+[0071.67] Cmd: SELECT BUILDERBRUSH
+[0072.99] Cmd: SELECT BUILDERBRUSH
+[0073.68] Cmd: EDCALLBACK LEVELPROPS
+[0080.17] Cmd: GROUPS REGROUP
+[0081.06] Cmd: POLY SELECT ADJACENT FLOORS
+[0081.42] Cmd: GROUPS UNGROUP
+[0082.19] Cmd: POLY SELECT ADJACENT COPLANARS
+[0084.24] Cmd: DUPLICATE
+[0084.24] Cmd: ACTOR DUPLICATE
+[0084.91] Cmd: POLY SELECT ADJACENT FLOORS
+[0085.74] Cmd: GROUPS UNGROUP
+[0093.23] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\template_night.umap" TEMPLATE=1
+[0093.26] Log: Encountered missing default brush - spawning new one
+[0093.32] Log: New File, Existing Package (Package Untitled_4, Package template_night)
+[0093.43] Log: -- Checking Building LODs
+[0093.43] Log: Primary PhysX scene will be in software.
+[0093.43] Log: Creating Primary PhysX Scene.
+[0093.43] Log: Finished looking for orphan Actors (0.001 secs)
+[0093.43] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0104.10] Cmd: POLY SELECT ADJACENT FLOORS
+[0104.57] Cmd: DUPLICATE
+[0104.57] Cmd: ACTOR DUPLICATE
+[0105.72] Cmd: ACTOR DESELECT
+[0106.17] Cmd: SELECT BUILDERBRUSH
+[0107.39] Cmd: SELECT BUILDERBRUSH
+[0112.13] Cmd: SELECT BUILDERBRUSH
+[0113.68] Cmd: SELECT BUILDERBRUSH
+[0114.29] Cmd: SELECT BUILDERBRUSH
+[0117.65] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\template_afternoon.umap" TEMPLATE=1
+[0117.68] Log: Encountered missing default brush - spawning new one
+[0117.74] Log: New File, Existing Package (Package Untitled_6, Package template_afternoon)
+[0117.77] Log: -- Checking Building LODs
+[0117.77] Log: Primary PhysX scene will be in software.
+[0117.77] Log: Creating Primary PhysX Scene.
+[0117.78] Log: Finished looking for orphan Actors (0.001 secs)
+[0117.78] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0120.82] Cmd: GROUPS REGROUP
+[0121.63] Cmd: ACTOR UNHIDE ALL
+[0122.82] Cmd: EDIT PASTE
+[0123.29] Cmd: ACTOR SYNCBROWSER
+[0123.82] Cmd: EDIT COPY
+[0124.23] Cmd: DUPLICATE
+[0124.23] Cmd: ACTOR DUPLICATE
+[0124.62] Cmd: BRUSH SUBTRACT
+[0126.60] Cmd: MODE GEOMETRY
+[0129.87] Cmd: GROUPS REGROUP
+[0130.27] Cmd: GROUPS REGROUP
+[0130.69] Cmd: ACTOR UNHIDE ALL
+[0131.06] Cmd: GROUPS REGROUP
+[0132.66] Cmd: GROUPS REGROUP
+[0133.87] Cmd: GROUPS REGROUP
+[0144.15] Cmd: GROUPS REGROUP
+[0146.58] Cmd: SELECT BUILDERBRUSH
+[0146.74] Cmd: SELECT BUILDERBRUSH
+[0147.97] Cmd: SELECT BUILDERBRUSH
+[0151.62] Cmd: SELECT BUILDERBRUSH
+[0159.29] Cmd: GROUPS REGROUP
+[0159.89] Cmd: GROUPS UNGROUP
+[0160.21] Cmd: POLY SELECT ADJACENT FLOORS
+[0160.87] Cmd: POLY SELECT ADJACENT FLOORS
+[0161.31] Cmd: POLY SELECT MATCHING BRUSH
+[0162.00] Cmd: POLY SELECT MATCHING BRUSH
+[0162.45] Cmd: POLY SELECT MATCHING BRUSH
+[0170.04] Cmd: DUPLICATE
+[0170.04] Cmd: ACTOR DUPLICATE
+[0170.47] Cmd: DUPLICATE
+[0170.47] Cmd: ACTOR DUPLICATE
+[0171.19] Cmd: DUPLICATE
+[0171.19] Cmd: ACTOR DUPLICATE
+[0171.53] Cmd: DUPLICATE
+[0171.53] Cmd: ACTOR DUPLICATE
+[0171.76] Cmd: DUPLICATE
+[0171.76] Cmd: ACTOR DUPLICATE
+[0171.94] Cmd: DUPLICATE
+[0171.94] Cmd: ACTOR DUPLICATE
+[0172.10] Cmd: DUPLICATE
+[0172.10] Cmd: ACTOR DUPLICATE
+[0173.63] Cmd: DELETE
+[0173.63] Cmd: ACTOR DELETE
+[0173.67] Log: Deleted 1 Actors (0.042 secs)
+[0174.33] Cmd: DELETE
+[0174.33] Cmd: ACTOR DELETE
+[0174.38] Log: Deleted 1 Actors (0.042 secs)
+[0174.81] Cmd: DELETE
+[0174.81] Cmd: ACTOR DELETE
+[0174.85] Log: Deleted 1 Actors (0.043 secs)
+[0175.56] Cmd: DELETE
+[0175.56] Cmd: ACTOR DELETE
+[0175.60] Log: Deleted 1 Actors (0.043 secs)
+[0175.98] Cmd: DELETE
+[0175.98] Cmd: ACTOR DELETE
+[0176.02] Log: Deleted 1 Actors (0.042 secs)
+[0176.34] Cmd: DELETE
+[0176.34] Cmd: ACTOR DELETE
+[0176.38] Log: Deleted 0 Actors (0.041 secs)
+[0176.82] Cmd: DELETE
+[0176.82] Cmd: ACTOR DELETE
+[0176.87] Log: Deleted 1 Actors (0.043 secs)
+[0177.05] Cmd: EDCALLBACK SELECTEDPROPS
+[0177.78] Cmd: DELETE
+[0177.78] Cmd: ACTOR DELETE
+[0177.83] Log: Deleted 1 Actors (0.045 secs)
+[0178.25] Cmd: DELETE
+[0178.25] Cmd: ACTOR DELETE
+[0178.30] Log: Deleted 1 Actors (0.045 secs)
+[0178.86] Cmd: DELETE
+[0178.86] Cmd: ACTOR DELETE
+[0178.90] Log: Deleted 1 Actors (0.045 secs)
+[0188.58] Cmd: SELECT BUILDERBRUSH
+[0190.87] Cmd: SELECT BUILDERBRUSH
+[0201.90] Cmd: EDCALLBACK LEVELPROPS
+[0202.88] Cmd: MODE CAMERAMOVE
+[0203.96] Log: 
+==== Worlds needing PIE Save:
+[0203.96] Log: Untitled_6
+[0203.96] Log: ==== 1 total
+[0203.98] Log: Built Phys StaticMesh Cache: 2.014 ms
+[0203.98] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 1 Convex Hulls (1.082031 KB) - Total 1.082031 KB
+[0204.02] Log: Save=35.138077
+[0204.02] Log: Moving 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_6_save.tmp' to 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_6.udk'
+[0204.03] Cmd: MAP LOAD PLAYWORLD=1 FILE="G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_6.udk"
+[0204.11] Log: Finished looking for orphan Actors (0.001 secs)
+[0204.11] Log: Game class is 'RevampedGameInfo'
+[0204.13] Log: Primary PhysX scene will be in software.
+[0204.13] Log: Creating Primary PhysX Scene.
+[0204.13] Log: Bringing World uedpieuntitled_6.TheWorld up for play (0) at 2014.05.26-21.20.35
+[0204.13] Log: Bringing up level for play took: 0.003700
+[0204.16] Log: PIE: play in editor start time for UEDPIEUntitled_6 0.250
+[0205.48] Cmd: onrelease ShowMenu
+[0205.55] Cmd: UpdateLandscapeSetup
+[0212.63] Cmd: GROUPS UNGROUP
+[0213.07] Cmd: GROUPS UNGROUP
+[0213.41] Cmd: GROUPS UNGROUP
+[0214.06] Cmd: POLY SELECT ADJACENT FLOORS
+[0214.43] Cmd: POLY SELECT ADJACENT FLOORS
+[0214.74] Cmd: POLY SELECT ADJACENT FLOORS
+[0215.03] Cmd: POLY SELECT ADJACENT FLOORS
+[0219.22] Cmd: POLY SELECT ADJACENT FLOORS
+[0219.56] Cmd: POLY SELECT ADJACENT FLOORS
+[0219.83] Cmd: POLY SELECT ADJACENT FLOORS
+[0220.13] Cmd: GROUPS UNGROUP
+[0220.37] Cmd: GROUPS UNGROUP
+[0221.82] Cmd: DUPLICATE
+[0221.82] Cmd: ACTOR DUPLICATE
+[0222.09] Cmd: DUPLICATE
+[0222.09] Cmd: ACTOR DUPLICATE
+[0222.39] Cmd: POLY SELECT ALL
+[0222.63] Cmd: POLY SELECT ALL
+[0222.95] Cmd: ACTOR SELECT ALL
+[0223.17] Cmd: ACTOR SELECT ALL
+[0225.44] Cmd: SELECT BUILDERBRUSH
+[0226.10] Cmd: SELECT BUILDERBRUSH
+[0229.80] Cmd: EDIT CUT
+[0229.80] Log: Cannot delete special actor Brush Untitled_6.TheWorld:PersistentLevel.Brush_0
+[0229.84] Log: Deleted 0 Actors (0.040 secs)
+[0230.05] Cmd: EDIT COPY
+[0230.27] Cmd: EDIT PASTE
+[0230.55] Cmd: ACTOR SYNCBROWSER
+[0231.11] Cmd: MODE WIDGETMODECYCLE
+[0231.40] Cmd: MODE WIDGETMODECYCLE
+[0231.73] Cmd: MODE WIDGETMODECYCLE
+[0231.99] Cmd: MODE WIDGETMODECYCLE
+[0232.21] Cmd: MODE WIDGETMODECYCLE
+[0232.80] Cmd: ACTOR SYNCBROWSER
+[0233.01] Cmd: ACTOR SYNCBROWSER
+[0233.25] Cmd: ACTOR SYNCBROWSER
+[0233.49] Cmd: EDIT PASTE
+[0233.78] Cmd: EDIT PASTE
+[0233.99] Cmd: EDIT COPY
+[0234.00] Cmd: EDIT CUT
+[0234.31] Cmd: TRANSACTION UNDO
+[0234.31] Log: Undo Paste
+[0234.35] Cmd: EDIT CUT
+[0234.58] Cmd: EDIT COPY
+[0234.74] Cmd: BRUSH SUBTRACT
+[0234.77] Cmd: DUPLICATE
+[0234.77] Cmd: ACTOR DUPLICATE
+[0235.01] Cmd: DUPLICATE
+[0235.01] Cmd: ACTOR DUPLICATE
+[0235.01] Cmd: BRUSH SUBTRACT
+[0235.27] Cmd: ACTOR UNHIDE ALL
+[0235.54] Cmd: ACTOR UNHIDE ALL
+[0236.24] Cmd: DUPLICATE
+[0236.24] Cmd: ACTOR DUPLICATE
+[0299.07] Cmd: ACTOR HIDE SELECTED
+[0299.45] Cmd: ACTOR HIDE SELECTED
+[0299.92] Cmd: ACTOR HIDE SELECTED
+[0300.71] Cmd: ACTOR HIDE SELECTED
+[0301.37] Cmd: ACTOR HIDE SELECTED
+[0302.00] Cmd: ACTOR HIDE SELECTED
+[0302.63] Cmd: ACTOR HIDE SELECTED
+[0304.02] Cmd: ACTOR HIDE SELECTED
+[0304.49] Cmd: ACTOR HIDE SELECTED
+[0304.73] Cmd: ACTOR HIDE SELECTED
+[0305.88] Cmd: ACTOR HIDE SELECTED
+[0307.69] Cmd: ACTOR HIDE SELECTED
+[0308.68] Cmd: ACTOR HIDE SELECTED
+[0308.97] Cmd: ACTOR HIDE SELECTED
+[0311.00] Cmd: ACTOR HIDE SELECTED
+[0312.15] Cmd: ACTOR HIDE SELECTED
+[0315.46] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\template_afternoon.umap" TEMPLATE=1
+[0315.51] Log: Encountered missing default brush - spawning new one
+[0315.56] Log: New File, Existing Package (Package Untitled_8, Package template_afternoon)
+[0315.59] Log: -- Checking Building LODs
+[0315.59] Log: Primary PhysX scene will be in software.
+[0315.59] Log: Creating Primary PhysX Scene.
+[0315.60] Log: Finished looking for orphan Actors (0.001 secs)
+[0315.60] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0318.47] Cmd: ACTOR HIDE SELECTED
+[0319.79] Cmd: ACTOR HIDE SELECTED
+[0320.20] Cmd: ACTOR HIDE SELECTED
+[0321.21] Cmd: ACTOR HIDE SELECTED
+[0322.50] Cmd: TRANSACTION UNDO
+[0322.50] Log: Undo Hide Selected
+[0344.23] Cmd: POLY SELECT ADJACENT WALLS
+[0345.08] Cmd: DUPLICATE
+[0345.08] Cmd: ACTOR DUPLICATE
+[0351.86] Cmd: MODE WIDGETMODECYCLE
+[0352.23] Cmd: MODE WIDGETMODECYCLE
+[0352.61] Cmd: MODE WIDGETMODECYCLE
+[0352.97] Cmd: MODE WIDGETMODECYCLE
+[0389.95] Cmd: DELETE
+[0389.95] Cmd: ACTOR DELETE
+[0389.99] Log: Deleted 1 Actors (0.044 secs)
+[0392.16] Cmd: nxvis PHYSX_CLEAR_ALL
+[0392.16] Log: Clearing all PhysX Debug Flags.
+[0392.16] Cmd: apexvis APEX_CLEAR_ALL
+[0392.16] DevPhysics: Apex Debug (Scene 0): apexvis APEX_CLEAR_ALL FALSE
+[0392.17] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom0':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom0':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom1':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom1':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom2':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.17] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom2':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0392.18] Log: Primary PhysX scene will be in software.
+[0392.18] Log: Creating Primary PhysX Scene.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultAirIntake'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultBattery'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultBumper'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultCover'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultEngine'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultGasTank'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultRadio'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultServo'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultTransmission'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultTunePipe'.
+[0438.31] Log: Building adjacency information for static mesh 'StarterRC.defaultmesh.DefaultWheel'.
+[0446.93] Log: Actor Factory created DefaultAirIntake
+[0449.34] Log: Actor Factory created DefaultBattery
+[0467.02] Cmd: EDCALLBACK SELECTEDPROPS
+[0485.39] Cmd: EDCALLBACK SELECTEDPROPS
+[0488.28] Cmd: EDCALLBACK SELECTEDPROPS
+[0499.11] Cmd: MODE WIDGETMODECYCLE
+[0513.31] Cmd: nxvis PHYSX_CLEAR_ALL
+[0513.31] Log: Clearing all PhysX Debug Flags.
+[0513.31] Cmd: apexvis APEX_CLEAR_ALL
+[0513.31] DevPhysics: Apex Debug (Scene 0): apexvis APEX_CLEAR_ALL FALSE
+[0513.33] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom0':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom0':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom0' in configuration file section=AnimSetViewer key=AnimNotifyCustom0 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom1':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom1':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom1' in configuration file section=AnimSetViewer key=AnimNotifyCustom1 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning: Failed to load 'Class None.editor-ini:AnimSetViewer.AnimNotifyCustom2':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning:  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Warning: Failed to load 'AnimNotify None.editor-ini:AnimSetViewer.AnimNotifyCustom2':  Can't find 'editor-ini:AnimSetViewer.AnimNotifyCustom2' in configuration file section=AnimSetViewer key=AnimNotifyCustom2 ..\..\UDKGame\Config\UDKEditor.ini 
+[0513.33] Log: Primary PhysX scene will be in software.
+[0513.33] Log: Creating Primary PhysX Scene.
+[0524.89] Log: saving as ..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk
+[0524.89] Log: OBJ SavePackage: Generating thumbnails for [11] asset(s) in package [StarterRC] ([12] browsable assets)...
+[0524.90] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultAirIntake]
+[0524.91] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultBattery]
+[0524.91] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultBumper]
+[0524.91] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultCover]
+[0524.92] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultEngine]
+[0524.92] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultGasTank]
+[0524.92] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultRadio]
+[0524.93] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultServo]
+[0524.93] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultTransmission]
+[0524.93] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultTunePipe]
+[0524.94] Log: OBJ SavePackage:     Rendered thumbnail for [StaticMesh StarterRC.defaultmesh.DefaultWheel]
+[0524.94] Log: OBJ SavePackage: Finished generating thumbnails for package [StarterRC]
+[0524.94] Cmd: OBJ SAVEPACKAGE PACKAGE="StarterRC" FILE="..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk"
+[0525.42] Log: Save=475.408363
+[0525.42] Log: Moving '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC_save.tmp' to '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk'
+[0531.38] Cmd: DELETE
+[0531.38] Cmd: ACTOR DELETE
+[0531.43] Log: Deleted 1 Actors (0.046 secs)
+[0548.82] Cmd: DELETE
+[0548.82] Cmd: ACTOR DELETE
+[0548.86] Log: Deleted 1 Actors (0.044 secs)
+[0550.21] Log: Actor Factory created DefaultAirIntake
+[0555.34] Log: Actor Factory created DefaultEngine
+[0560.34] Log: Actor Factory created DefaultCover
+[0568.27] Log: saving as ..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk
+[0568.27] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [StarterRC] ([12] browsable assets)...
+[0568.28] Log: OBJ SavePackage: Finished generating thumbnails for package [StarterRC]
+[0568.28] Cmd: OBJ SAVEPACKAGE PACKAGE="StarterRC" FILE="..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk"
+[0568.32] Log: Save=37.159911
+[0568.32] Log: Moving '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC_save.tmp' to '..\..\UDKGame\Content\Revamped\Vehicles\StarterRC.upk'
+[0570.73] Exit: Preparing to exit.
+[0570.80] Exit: Editor shut down
+[0570.80] Exit: Transaction tracking system shut down
+[0570.94] Exit: Windows client shut down
+[0570.94] Exit: XAudio2 Device shut down.
+[0570.98] Exit: Object subsystem successfully closed.
+[0570.98] Log: Shutting down FaceFX...
+[0570.98] Log: FaceFX shutdown.
+[0571.01] Exit: Exiting.
+[0571.01] Log: Log file closed, 05/26/14 21:26:42

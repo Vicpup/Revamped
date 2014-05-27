@@ -1,0 +1,227 @@
+Log: Log file open, 05/26/14 21:28:10
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
+Init: Version: 12097
+Init: Epic Internal: 0
+Init: Compiled (32-bit): Feb 17 2014 13:31:14
+Init: Changelist: 1999891
+Init: Command line: editor 
+Init: Base directory: G:\Revamped\UDK\Binaries\Win32\
+[0000.22] Init: Computer: ILYA-PC
+[0000.22] Init: User: Ilya
+[0000.22] Init: CPU Page size=4096, Processors=8
+[0000.22] Init: High frequency timer resolution =3.428076 MHz
+[0000.22] Init: Memory total: Physical=7.9GB (8GB approx) Pagefile=15.9GB Virtual=4.0GB
+[0000.22] Log: Steam Client API Disabled!
+[0000.25] Init: WinSock: I am Ilya-PC (192.168.1.10:0)
+[0000.25] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.25] Init: Object subsystem initialized
+[0000.26] Log: SystemSettings based on: SystemSettings
+[0000.27] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0000.27] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0000.30] Log: Shader platform (RHI): PC-D3D-SM3
+[0000.38] Log: PhysX GPU Support: DISABLED
+[0000.38] Init: Initializing FaceFX...
+[0000.38] Init: FaceFX 1.7.4 initialized.
+[0001.16] Log: Failed to load 'UI_Fonts': Can't find file 'UI_Fonts'
+[0001.17] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
+[0001.17] Init: Finished loading startup packages in 0.69 seconds
+[0001.17] Log: 55335 objects as part of root set at end of initial load.
+[0001.17] Log: 0 out of 0 bytes used by permanent object pool.
+[0001.76] Log: Supported Consoles:
+[0001.76] Log:   IPhone
+[0001.76] Log:   Mac
+[0001.76] Log:   PC
+[0001.76] Log: Initializing Engine...
+[0001.81] Log: Encountered missing default brush - spawning new one
+[0001.81] Init: UEngine initialized
+[0001.81] Log: Primary PhysX scene will be in software.
+[0001.81] Log: Creating Primary PhysX Scene.
+[0001.82] Init: Transaction tracking system initialized
+[0001.82] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0001.82] Log: Can't find edit package 'OnlineSubsystemLive'
+[0001.84] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0001.85] Init: XAudio2Device initialized.
+[0001.88] Init: Client initialized
+[0001.88] Init: Editor engine initialized
+[0001.96] Log: Initializing Engine Completed
+[0001.96] Log: >>>>>>>>>>>>>> Initial startup: 1.96s <<<<<<<<<<<<<<<
+[0002.00] Cmd: MODE MAPEXT=udk
+[0002.05] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0002.68] Log: Found D3D11 adapter 0: NVIDIA GeForce GT 630
+[0002.68] Log: Adapter has 3072MB of dedicated video memory, 0MB of dedicated system memory, and 1023MB of shared system memory
+[0003.48] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
+[0003.58] Log: Encountered missing default brush - spawning new one
+[0003.71] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
+[0003.75] Log: -- Checking Building LODs
+[0003.75] Log: Primary PhysX scene will be in software.
+[0003.75] Log: Creating Primary PhysX Scene.
+[0003.75] Log: Finished looking for orphan Actors (0.001 secs)
+[0003.75] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0003.75] Log: TIMER ALL OF INIT : [3.359120]
+[0033.40] Log: 
+==== Worlds needing PIE Save:
+[0033.40] Log: Untitled_2
+[0033.40] Log: ==== 1 total
+[0033.42] Log: Built Phys StaticMesh Cache: 2.424 ms
+[0033.42] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (2.164063 KB) - Total 2.164063 KB
+[0033.49] Log: Save=64.372552
+[0033.49] Log: Moving 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0033.50] Cmd: MAP LOAD PLAYWORLD=1 FILE="G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0033.58] Log: Finished looking for orphan Actors (0.001 secs)
+[0033.58] Log: Game class is 'RevampedGameInfo'
+[0033.58] Log: Primary PhysX scene will be in software.
+[0033.58] Log: Creating Primary PhysX Scene.
+[0033.58] Log: Bringing World uedpieuntitled_2.TheWorld up for play (0) at 2014.05.26-21.28.44
+[0033.58] Log: Bringing up level for play took: 0.003178
+[0033.61] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.263
+[0036.57] Cmd: StartAltFire 
+[0036.57] Cmd: OnRelease StopAltFire
+[0036.72] Cmd: StopAltFire
+[0041.08] Cmd: onrelease ShowMenu
+[0041.14] Cmd: UpdateLandscapeSetup
+[0053.78] Cmd: UpdateLandscapeSetup
+[0056.28] Cmd: UpdateLandscapeSetup
+[0057.50] Log: 
+==== Worlds needing PIE Save:
+[0057.50] Log: Untitled_2
+[0057.50] Log: ==== 1 total
+[0057.52] Log: Built Phys StaticMesh Cache: 2.510 ms
+[0057.52] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (2.164063 KB) - Total 2.164063 KB
+[0057.56] Log: Save=37.281262
+[0057.56] Log: Moving 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0057.58] Cmd: MAP LOAD PLAYWORLD=1 FILE="G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0057.66] Log: Finished looking for orphan Actors (0.001 secs)
+[0057.66] Log: Game class is 'RevampedGameInfo'
+[0057.66] Log: Primary PhysX scene will be in software.
+[0057.66] Log: Creating Primary PhysX Scene.
+[0057.66] Log: Bringing World uedpieuntitled_2.TheWorld up for play (0) at 2014.05.26-21.29.08
+[0057.66] Log: Bringing up level for play took: 0.003352
+[0057.69] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.241
+[0059.65] Cmd: onrelease ShowMenu
+[0059.71] Cmd: UpdateLandscapeSetup
+[0060.58] Cmd: UpdateLandscapeSetup
+[0062.30] Cmd: UpdateLandscapeSetup
+[0062.83] Cmd: UpdateLandscapeSetup
+[0063.93] Cmd: UpdateLandscapeSetup
+[0064.92] Log: 
+==== Worlds needing PIE Save:
+[0064.92] Log: Untitled_2
+[0064.92] Log: ==== 1 total
+[0064.95] Log: Built Phys StaticMesh Cache: 2.558 ms
+[0064.95] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (2.164063 KB) - Total 2.164063 KB
+[0064.98] Log: Save=37.179456
+[0064.98] Log: Moving 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0065.00] Cmd: MAP LOAD PLAYWORLD=1 FILE="G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0065.07] Log: Finished looking for orphan Actors (0.001 secs)
+[0065.07] Log: Game class is 'UDKGame'
+[0065.08] Log: Primary PhysX scene will be in software.
+[0065.08] Log: Creating Primary PhysX Scene.
+[0065.08] Log: Bringing World uedpieuntitled_2.TheWorld up for play (0) at 2014.05.26-21.29.15
+[0065.08] Log: Bringing up level for play took: 0.003135
+[0065.11] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.234
+[0066.22] Cmd: onrelease ShowMenu
+[0066.29] Cmd: UpdateLandscapeSetup
+[0067.11] Cmd: UpdateLandscapeSetup
+[0067.94] Cmd: UpdateLandscapeSetup
+[0068.47] Cmd: UpdateLandscapeSetup
+[0069.63] Cmd: UpdateLandscapeSetup
+[0070.46] Log: 
+==== Worlds needing PIE Save:
+[0070.46] Log: Untitled_2
+[0070.46] Log: ==== 1 total
+[0070.48] Log: Built Phys StaticMesh Cache: 2.823 ms
+[0070.48] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (2.164063 KB) - Total 2.164063 KB
+[0070.52] Log: Save=38.013451
+[0070.52] Log: Moving 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0070.53] Cmd: MAP LOAD PLAYWORLD=1 FILE="G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0070.61] Log: Finished looking for orphan Actors (0.001 secs)
+[0070.61] Log: Game class is 'SimpleGame'
+[0070.61] Log: Primary PhysX scene will be in software.
+[0070.61] Log: Creating Primary PhysX Scene.
+[0070.61] Log: Bringing World uedpieuntitled_2.TheWorld up for play (0) at 2014.05.26-21.29.21
+[0070.61] Log: Bringing up level for play took: 0.003197
+[0070.63] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.218
+[0071.92] Cmd: onrelease ShowMenu
+[0071.98] Cmd: UpdateLandscapeSetup
+[0072.63] Cmd: UpdateLandscapeSetup
+[0073.72] Cmd: UpdateLandscapeSetup
+[0074.25] Cmd: UpdateLandscapeSetup
+[0075.38] Cmd: UpdateLandscapeSetup
+[0076.27] Log: 
+==== Worlds needing PIE Save:
+[0076.27] Log: Untitled_2
+[0076.27] Log: ==== 1 total
+[0076.29] Log: Built Phys StaticMesh Cache: 2.607 ms
+[0076.29] Log: COOKEDPHYSICS: 0 TriMeshes (0.000000 KB), 2 Convex Hulls (2.164063 KB) - Total 2.164063 KB
+[0076.33] Log: Save=36.722640
+[0076.33] Log: Moving 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2_save.tmp' to 'G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk'
+[0076.35] Cmd: MAP LOAD PLAYWORLD=1 FILE="G:\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEUntitled_2.udk"
+[0076.42] Log: Finished looking for orphan Actors (0.001 secs)
+[0076.42] Log: Game class is 'PlayerCollectorGame'
+[0076.42] Log: Primary PhysX scene will be in software.
+[0076.42] Log: Creating Primary PhysX Scene.
+[0076.43] Log: Bringing World uedpieuntitled_2.TheWorld up for play (0) at 2014.05.26-21.29.27
+[0076.43] Log: Bringing up level for play took: 0.003121
+[0076.46] Log: PIE: play in editor start time for UEDPIEUntitled_2 0.234
+[0083.01] Cmd: onrelease ShowMenu
+[0083.07] Cmd: UpdateLandscapeSetup
+[0084.44] Cmd: UpdateLandscapeSetup
+[0092.55] Cmd: UpdateLandscapeSetup
+[0093.15] Cmd: UpdateLandscapeSetup
+[0093.94] Cmd: UpdateLandscapeSetup
+[0109.39] Log: Aborting operation as ExampleEntry was not fully loaded.
+[0114.39] Log: FactoryCreateBinary: SkeletalMesh with FbxFactory (0 0 C:\Users\Ilya\Desktop\Test1.FBX)
+[0114.40] Log: An out of date FBX has been detected.
+Importing different versions of FBX files than the SDK version can cause undesirable results.
+
+File Version: 7.4.0
+SDK Version: 7.3.0
+[0114.43] Log: Loading FBX Scene from C:\Users\Ilya\Desktop\Test1.FBX
+[0114.46] Log: FBX Scene Loaded Succesfully
+[0114.46] Warning: Using default materials for material slot
+[0114.46] Warning: FBX bind pose BIND_POSES is invalid.  It will be ignored
+[0114.46] Log: Warning: The following bones are missing from the bind pose.  If they are not in the correct orientation after importing, please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh 
+
+Bone_Root  
+Bone_BR_ShockTop2  
+Bone_BR_ShockTop1  
+Bone_BL_ShockTop2  
+Bone_BL_ShockTop1  
+Bone_FL_ShockTop2  
+Bone_FL_ShockTop1  
+Bone_FR_ShockTop2  
+Bone_FR_ShockTop1  
+Bone_FR_Axle  
+Bone_FR_ShockBottom  
+Bone_FL_Axle  
+Bone_FL_ShockBottom  
+Bone_BL_Axle  
+Bone_BL_ShockBottom  
+Bone_BR_Axle  
+Bone_BR_ShockBottom  
+Bone_BR_Wheel  
+Bone_BR_Link  
+Bone_BL_Wheel  
+Bone_BL_Link  
+Bone_FL_Wheel  
+Bone_FL_Link  
+Bone_FR_Wheel  
+Bone_FR_Link  
+
+[0114.46] Log: Warning: A bone or bones with a non-identity scale factor was found for skeleton (skeleton root name: Bone_Root).
+ Unreal does not support scale on bones so the FBX importer will attempt to apply the scale to the bone's translation.  If the results are not as intended, please use identity scale for all skeletons in the original scene.
+[0114.47] Log:  Found texture for material 0: [DefaultMaterial] skin index: 0 
+[0114.47] Log: Bones digested - 25  Depth of hierarchy - 3
+[0114.74] Log: Chunk 0: 9543 rigid vertices, 0 soft vertices, 17 active bones
+[0115.01] Log: Section 0: Material=0, Chunk=0, 7064 triangles
+[0144.89] Exit: Preparing to exit.
+[0144.96] Exit: Editor shut down
+[0144.96] Exit: Transaction tracking system shut down
+[0145.10] Exit: Windows client shut down
+[0145.10] Exit: XAudio2 Device shut down.
+[0145.15] Exit: Object subsystem successfully closed.
+[0145.16] Log: Shutting down FaceFX...
+[0145.16] Log: FaceFX shutdown.
+[0145.19] Exit: Exiting.
+[0145.19] Log: Log file closed, 05/26/14 21:30:35
