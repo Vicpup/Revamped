@@ -1,661 +1,284 @@
-<<<<<<< HEAD
-Log: Log file open, 05/28/14 21:01:45
-=======
-Log: Log file open, 05/28/14 19:39:13
->>>>>>> 55ffc99519062aa32917c6fc99c16e10d117c470
+Log: Log file open, 05/28/14 22:23:02
 Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\Mobile-UDKUI.ini
 DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
 Init: Version: 12097
 Init: Epic Internal: 0
 Init: Compiled (32-bit): Feb 17 2014 13:31:14
 Init: Changelist: 1999891
-Init: Command line: MenuMap -simmobile ResX=640 ResY=400 
+Init: Command line: editor MenuMap.udk
 Init: Base directory: C:\UDK\Revamped\UDK\Binaries\Win32\
-<<<<<<< HEAD
-[0000.74] Init: Computer: ILYA-LAPTOP
-[0000.74] Init: User: Ilya
-[0000.74] Init: CPU Page size=4096, Processors=2
-[0000.74] Init: High frequency timer resolution =1.948222 MHz
-[0000.74] Init: Memory total: Physical=2.7GB (2GB approx) Pagefile=5.5GB Virtual=2.0GB
-[0000.74] Log: Steam Client API Disabled!
-[0000.79] Init: WinSock: I am Ilya-Laptop (192.168.1.11:0)
-[0000.79] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[0000.79] Init: Object subsystem initialized
-[0000.92] Log: SystemSettings based on: SystemSettings
-[0000.93] Log: Shader platform (RHI): PC-D3D-SM3
-[0002.90] Log: PhysX GPU Support: DISABLED
-[0002.91] Init: Initializing FaceFX...
-[0002.91] Init: FaceFX 1.7.4 initialized.
-[0006.76] Init: Finished loading startup packages in 3.35 seconds
-[0006.79] Log: 51397 objects as part of root set at end of initial load.
-[0006.79] Log: 0 out of 0 bytes used by permanent object pool.
-[0006.79] Log: Initializing Engine...
-[0006.92] Init: UEngine initialized
-[0006.94] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[0007.11] Init: XAudio2Device initialized.
-[0007.45] Init: Client initialized
-[0007.47] Log: FES2Viewport::FES2Viewport InWindowHandle is e0a30
-[0007.85] Log: Vendor: ATI Technologies Inc.
-[0007.85] Log: Renderer: AMD M860G with ATI Mobility Radeon 4100 
-[0007.85] Log: Supports Shader Discard: TRUE
-[0007.85] Log: Supports Shader Bump Offset: TRUE
-[0007.85] Log: ES2 Texture Support [ DXT - - - ]
-[0007.85] Log: Driver Compiler? ... no, Num Binary Formats = 0
-[0007.85] Log: GL Extensions:
-[0007.85] Log:     GL_AMD_draw_buffers_blend
-[0007.85] Log:     GL_AMD_performance_monitor
-[0007.85] Log:     GL_ARB_color_buffer_float
-[0007.85] Log:     GL_ARB_copy_buffer
-[0007.85] Log:     GL_ARB_depth_buffer_float
-[0007.85] Log:     GL_ARB_depth_texture
-[0007.85] Log:     GL_ARB_draw_buffers
-[0007.85] Log:     GL_ARB_draw_instanced
-[0007.85] Log:     GL_ARB_fragment_program
-[0007.85] Log:     GL_ARB_fragment_program_shadow
-[0007.85] Log:     GL_ARB_fragment_shader
-[0007.85] Log:     GL_ARB_framebuffer_object
-[0007.85] Log:     GL_ARB_framebuffer_sRGB
-[0007.85] Log:     GL_ARB_half_float_pixel
-[0007.85] Log:     GL_ARB_half_float_vertex
-[0007.85] Log:     GL_ARB_instanced_arrays
-[0007.85] Log:     GL_ARB_map_buffer_range
-[0007.85] Log:     GL_ARB_multisample
-[0007.85] Log:     GL_ARB_multitexture
-[0007.85] Log:     GL_ARB_occlusion_query
-[0007.85] Log:     GL_ARB_pixel_buffer_object
-[0007.85] Log:     GL_ARB_point_parameters
-[0007.85] Log:     GL_ARB_point_sprite
-[0007.85] Log:     GL_ARB_shader_objects
-[0007.85] Log:     GL_ARB_shader_texture_lod
-[0007.85] Log:     GL_ARB_shading_language_100
-[0007.85] Log:     GL_ARB_shadow
-[0007.85] Log:     GL_ARB_shadow_ambient
-[0007.85] Log:     GL_ARB_texture_border_clamp
-[0007.85] Log:     GL_ARB_texture_buffer_object
-[0007.85] Log:     GL_ARB_texture_compression
-[0007.85] Log:     GL_ARB_texture_compression_rgtc
-[0007.85] Log:     GL_ARB_texture_cube_map
-[0007.85] Log:     GL_ARB_texture_env_add
-[0007.85] Log:     GL_ARB_texture_env_combine
-[0007.85] Log:     GL_ARB_texture_env_crossbar
-[0007.85] Log:     GL_ARB_texture_env_dot3
-[0007.85] Log:     GL_ARB_texture_float
-[0007.85] Log:     GL_ARB_texture_mirrored_repeat
-[0007.85] Log:     GL_ARB_texture_non_power_of_two
-[0007.85] Log:     GL_ARB_texture_rectangle
-[0007.85] Log:     GL_ARB_texture_rg
-[0007.85] Log:     GL_ARB_texture_snorm
-[0007.85] Log:     GL_ARB_transpose_matrix
-[0007.85] Log:     GL_ARB_vertex_array_object
-[0007.85] Log:     GL_ARB_vertex_buffer_object
-[0007.85] Log:     GL_ARB_vertex_program
-[0007.85] Log:     GL_ARB_vertex_shader
-[0007.85] Log:     GL_ARB_window_pos
-[0007.85] Log:     GL_ATI_draw_buffers
-[0007.85] Log:     GL_ATI_envmap_bumpmap
-[0007.85] Log:     GL_ATI_fragment_shader
-[0007.85] Log:     GL_ATI_meminfo
-[0007.85] Log:     GL_ATI_separate_stencil
-[0007.85] Log:     GL_ATI_texture_compression_3dc
-[0007.85] Log:     GL_ATI_texture_env_combine3
-[0007.85] Log:     GL_ATI_texture_float
-[0007.85] Log:     GL_ATI_texture_mirror_once
-[0007.85] Log:     GL_EXT_abgr
-[0007.85] Log:     GL_EXT_bgra
-[0007.85] Log:     GL_EXT_bindable_uniform
-[0007.85] Log:     GL_EXT_blend_color
-[0007.85] Log:     GL_EXT_blend_equation_separate
-[0007.85] Log:     GL_EXT_blend_func_separate
-[0007.85] Log:     GL_EXT_blend_minmax
-[0007.85] Log:     GL_EXT_blend_subtract
-[0007.85] Log:     GL_EXT_compiled_vertex_array
-[0007.85] Log:     GL_EXT_copy_buffer
-[0007.85] Log:     GL_EXT_copy_texture
-[0007.85] Log:     GL_EXT_draw_buffers2
-[0007.85] Log:     GL_EXT_draw_instanced
-[0007.85] Log:     GL_EXT_draw_range_elements
-[0007.85] Log:     GL_EXT_fog_coord
-[0007.85] Log:     GL_EXT_framebuffer_blit
-[0007.85] Log:     GL_EXT_framebuffer_multisample
-[0007.85] Log:     GL_EXT_framebuffer_object
-[0007.85] Log:     GL_EXT_framebuffer_sRGB
-[0007.85] Log:     GL_EXT_gpu_program_parameters
-[0007.85] Log:     GL_EXT_gpu_shader4
-[0007.85] Log:     GL_EXT_multi_draw_arrays
-[0007.85] Log:     GL_EXT_packed_depth_stencil
-[0007.85] Log:     GL_EXT_packed_float
-[0007.85] Log:     GL_EXT_packed_pixels
-[0007.85] Log:     GL_EXT_pixel_buffer_object
-[0007.85] Log:     GL_EXT_point_parameters
-[0007.85] Log:     GL_EXT_provoking_vertex
-[0007.85] Log:     GL_EXT_rescale_normal
-[0007.85] Log:     GL_EXT_secondary_color
-[0007.85] Log:     GL_EXT_separate_specular_color
-[0007.85] Log:     GL_EXT_shadow_funcs
-[0007.85] Log:     GL_EXT_stencil_wrap
-[0007.85] Log:     GL_EXT_subtexture
-[0007.85] Log:     GL_EXT_texgen_reflection
-[0007.85] Log:     GL_EXT_texture3D
-[0007.85] Log:     GL_EXT_texture_array
-[0007.85] Log:     GL_EXT_texture_buffer_object
-[0007.85] Log:     GL_EXT_texture_compression_latc
-[0007.85] Log:     GL_EXT_texture_compression_rgtc
-[0007.85] Log:     GL_EXT_texture_compression_s3tc
-[0007.85] Log:     GL_EXT_texture_cube_map
-[0007.85] Log:     GL_EXT_texture_edge_clamp
-[0007.85] Log:     GL_EXT_texture_env_add
-[0007.85] Log:     GL_EXT_texture_env_combine
-[0007.85] Log:     GL_EXT_texture_env_dot3
-[0007.85] Log:     GL_EXT_texture_filter_anisotropic
-[0007.85] Log:     GL_EXT_texture_integer
-[0007.85] Log:     GL_EXT_texture_lod
-[0007.85] Log:     GL_EXT_texture_lod_bias
-[0007.85] Log:     GL_EXT_texture_mirror_clamp
-[0007.85] Log:     GL_EXT_texture_object
-[0007.85] Log:     GL_EXT_texture_rectangle
-[0007.85] Log:     GL_EXT_texture_sRGB
-[0007.85] Log:     GL_EXT_texture_shared_exponent
-[0007.85] Log:     GL_EXT_texture_snorm
-[0007.85] Log:     GL_EXT_texture_swizzle
-[0007.85] Log:     GL_EXT_transform_feedback
-[0007.85] Log:     GL_EXT_vertex_array
-[0007.85] Log:     GL_EXT_vertex_array_bgra
-[0007.85] Log:     GL_IBM_texture_mirrored_repeat
-[0007.85] Log:     GL_KTX_buffer_region
-[0007.85] Log:     GL_NV_blend_square
-[0007.85] Log:     GL_NV_conditional_render
-[0007.85] Log:     GL_NV_copy_depth_to_color
-[0007.85] Log:     GL_NV_primitive_restart
-[0007.85] Log:     GL_NV_texgen_reflection
-[0007.85] Log:     GL_SGIS_generate_mipmap
-[0007.85] Log:     GL_SGIS_texture_edge_clamp
-[0007.85] Log:     GL_SGIS_texture_lod
-[0007.85] Log:     GL_SUN_multi_draw_arrays
-[0007.85] Log:     GL_WIN_swap_hint
-[0007.85] Log:     WGL_EXT_swap_control
-[0007.85] Log: GL_MAX_VERTEX_UNIFORM_VECTORS = Not supported
-[0007.85] Log: GL_MAX_VARYING_VECTORS = Not supported
-[0007.85] Log: GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS = 16
-[0007.85] Log: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
-[0007.85] Log: GL_MAX_TEXTURE_IMAGE_UNITS = 16
-[0007.85] Log: GL_MAX_FRAGMENT_UNIFORM_VECTORS = Not supported
-[0007.85] Log: GL_MAX_TEXTURE_SIZE = 8192
-[0007.85] Log: GL_MAX_VIEWPORT_DIMS = 8192
-[0007.85] Log: GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT = 16
-[0007.85] Log: GL_SUBPIXEL_BITS = 8
-[0007.85] Log: GL_MAX_VERTEX_ATTRIBS = 16
-[0007.85] Log: Viewport resolution: [640x400]
-[0007.93] Log: Failed to load ShaderGroups.bin
-[0007.93] Log: StartCompilingShaderGroup: StartupPackages
-[0007.93] Log: Compiled 0 Shaders in group StartupPackages
-[0007.93] Log: StartCompilingShaderGroup  0.59 ms total.
-[0007.93] Log: StartCompilingShaderGroup: UnGrouped
-[0007.93] Log: Compiled 0 Shaders in group UnGrouped
-[0007.93] Log: StartCompilingShaderGroup  0.03 ms total.
-[0007.93] Log: Steam Client API is unavailable
-[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0007.94] Warning: Warning, Failed to find object 'Class None.'
-[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0007.94] Warning: Warning, Failed to find object 'Class None.'
-[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0007.94] Warning: Warning, Failed to find object 'Class None.'
-[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0007.94] Warning: Warning, Failed to find object 'Class None.'
-[0007.94] Log: LoadMap: MenuMap?Name=Player?Team=255
-[0008.23] Log: Game class is 'RCMainMenu'
-[0008.32] Log: Primary PhysX scene will be in software.
-[0008.32] Log: Creating Primary PhysX Scene.
-[0008.33] Log: Bringing World MenuMap.TheWorld up for play (0) at 2014.05.28-21.01.53
-[0008.33] Log: Bringing up level for play took: 0.084094
-[0008.34] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
-[0008.34] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
-[0008.34] Error: Can't start an online game that hasn't been created
-[0008.34] Log: ########### Finished loading level: 0.395268 seconds
-[0009.08] Init: Game engine initialized
-[0009.08] Log: Initializing Engine Completed
-[0009.08] Log: >>>>>>>>>>>>>> Initial startup: 9.08s <<<<<<<<<<<<<<<
-[0009.14] Log: WarmShaderCache
-[0009.14] Log: WarmShaderCache:ShadersWarmed 9
-[0013.39] Log: LoadMap: Outdoor?Name=Player?Team=255
-[0013.39] Log: --- LOADING MOVIE START ---
-[0013.43] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
-	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
-	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
-[0029.39] Log: Game class is 'RCBaseGame'
-[0029.51] Log: Primary PhysX scene will be in software.
-[0029.51] Log: Creating Primary PhysX Scene.
-[0029.54] Log: Bringing World outdoor.TheWorld up for play (0) at 2014.05.28-21.02.14
-[0029.55] ScriptLog: Current Spawn Location Count: 2
-[0029.55] Log: Bringing up level for play took: 0.160944
-[0029.55] ScriptLog: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[0029.57] ScriptLog: FAILED_________________________
-[0029.57] ScriptWarning: Accessed None 'RCRep'
-	RCTimeAttackScene outdoor.TheWorld:PersistentLevel.RCPlayerController_0.RCTimeAttackScene_0
-	Function LDS.RCTimeAttackScene:LoadMenuInfo:009D
-[0029.57] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
-[0029.57] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
-[0029.57] ScriptWarning: CANNOT SPAWN PLAYER! No RCSpawnPoint Found
-	RCBaseGame outdoor.TheWorld:PersistentLevel.RCBaseGame_0
-	Function LDS.RCBaseGame:RestartPlayer:0165
-[0029.57] Error: Can't start an online game that hasn't been created
-[0029.57] Log: ########### Finished loading level: 16.176531 seconds
-[0031.83] Log: Save=1974.375610
-[0031.83] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
-[0032.31] Log: --- LOADING MOVIE TIME: 18.9 sec ---
-[0037.09] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
-	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
-	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
-[0037.09] Log: All Windows Closed
-[0037.09] Log: appRequestExit(0)
-[0048.23] Critical: appError called: Rendering thread exception:
+[0000.53] Init: Computer: ILYA-LAPTOP
+[0000.53] Init: User: Ilya
+[0000.53] Init: CPU Page size=4096, Processors=2
+[0000.53] Init: High frequency timer resolution =1.948222 MHz
+[0000.53] Init: Memory total: Physical=2.7GB (2GB approx) Pagefile=5.5GB Virtual=2.0GB
+[0000.53] Log: Steam Client API Disabled!
+[0000.58] Init: WinSock: I am Ilya-Laptop (192.168.1.11:0)
+[0000.58] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.58] Init: Object subsystem initialized
+[0000.67] Log: SystemSettings based on: SystemSettings
+[0000.85] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.77] Log: PhysX GPU Support: DISABLED
+[0002.77] Init: Initializing FaceFX...
+[0002.77] Init: FaceFX 1.7.4 initialized.
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading ..\..\UDKGame\Content\UT3\Effects\FX_HitEffects.upk
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading ..\..\UDKGame\Content\UT3\Effects\FX_HitEffects.upk
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading ..\..\UDKGame\Content\UT3\Effects\FX_HitEffects.upk
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading ..\..\UDKGame\Content\UT3\Effects\FX_HitEffects.upk
+[0007.38] Warning: Failed to load 'UDK_LUT.M_Vingette_INST'! Referenced by 'fx_hiteffects.UTPostProcess_Console:MaterialEffect_1' ('Engine.MaterialEffect:Material').
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading NULL
+[0007.38] Warning: Failed to load 'UDK_LUT.FilmGrain.M_FilmGrain_INST'! Referenced by 'fx_hiteffects.UTPostProcess_Console:MaterialEffect_2' ('Engine.MaterialEffect:Material').
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading NULL
+[0007.38] Warning: Failed to load 'UDK_LUT.M_Vingette_INST'! Referenced by 'fx_hiteffects.UTPostProcess_PC:MaterialEffect_1' ('Engine.MaterialEffect:Material').
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading NULL
+[0007.38] Warning: Failed to load 'UDK_LUT.FilmGrain.M_FilmGrain_INST'! Referenced by 'fx_hiteffects.UTPostProcess_PC:MaterialEffect_2' ('Engine.MaterialEffect:Material').
+[0007.38] Log: Failed to load 'UDK_LUT': Can't find file for package 'UDK_LUT' while loading NULL
+[0007.41] Init: Finished loading startup packages in 4.15 seconds
+[0007.43] Log: 55889 objects as part of root set at end of initial load.
+[0007.43] Log: 0 out of 0 bytes used by permanent object pool.
+[0008.47] Log: Supported Consoles:
+[0008.47] Log:   IPhone
+[0008.47] Log:   Mac
+[0008.47] Log:   PC
+[0008.47] Log: Initializing Engine...
+[0009.19] Log: Encountered missing default brush - spawning new one
+[0009.21] Init: UEngine initialized
+[0009.21] Log: Primary PhysX scene will be in software.
+[0009.21] Log: Creating Primary PhysX Scene.
+[0011.85] Init: Transaction tracking system initialized
+[0011.95] Log: Can't find edit package 'OnlineSubsystemGameSpy'
+[0011.95] Log: Can't find edit package 'OnlineSubsystemLive'
+[0012.40] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0012.74] Init: XAudio2Device initialized.
+[0013.12] Init: Client initialized
+[0013.14] Init: Editor engine initialized
+[0014.22] Log: Material MOBEMU_Translucent_TwoSided has outdated uniform expressions; regenerating.
+[0018.40] Log: Initializing Engine Completed
+[0018.40] Log: >>>>>>>>>>>>>> Initial startup: 18.40s <<<<<<<<<<<<<<<
+[0019.20] Cmd: MODE MAPEXT=udk
+[0019.87] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
+[0038.57] Cmd: MAP LOAD FILE="..\..\UDKGame\Content\Revamped\Maps\MenuMap.udk" TEMPLATE=0
+[0039.80] Log: Encountered missing default brush - spawning new one
+[0042.31] Log: -- Checking Building LODs
+[0042.34] Log: Primary PhysX scene will be in software.
+[0042.34] Log: Creating Primary PhysX Scene.
+[0042.37] Log: Finished looking for orphan Actors (0.035 secs)
+[0042.38] Log: Dependent material package changed named menumap
+[0042.49] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
+[0045.51] Log: Save=3020.062395
+[0045.51] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0050.28] Log: TIMER ALL OF INIT : [47.366641]
+[0051.59] Cmd: UpdateLandscapeEditorData
+[0126.02] Log: Primary PhysX scene will be in software.
+[0126.02] Log: Creating Primary PhysX Scene.
+[0126.40] Log: UpdatePreviewMesh: 0, Sunfire
+[0126.40] Log: UpdatePreviewAnimSet: 0
+[0126.42] Log: Refreshing currently selected anim sequence
+[0244.94] Log: Refreshing currently selected anim sequence
+[0255.67] Log: Refreshing currently selected anim sequence
+[0255.85] Log: Refreshing currently selected anim sequence
+[0392.95] Log: Refreshing currently selected anim sequence
+[0393.18] Log: Refreshing currently selected anim sequence
+[0422.41] Log: Refreshing currently selected anim sequence
+[0422.61] Log: Refreshing currently selected anim sequence
+[0441.69] Log: Refreshing currently selected anim sequence
+[0443.70] Log: Refreshing currently selected anim sequence
+[0450.35] Log: Refreshing currently selected anim sequence
+[0450.55] Log: Refreshing currently selected anim sequence
+[0453.11] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
+[0453.22] Log: Refreshing currently selected anim sequence
+[0461.53] Log: Refreshing currently selected anim sequence
+[0464.84] Log: Refreshing currently selected anim sequence
+[0475.60] Log: Refreshing currently selected anim sequence
+[0489.75] Log: Refreshing currently selected anim sequence
+[0489.95] Log: Refreshing currently selected anim sequence
+[0495.06] Log: Refreshing currently selected anim sequence
+[0504.47] Log: Refreshing currently selected anim sequence
+[0504.59] Log: Refreshing currently selected anim sequence
+[0505.85] Log: Refreshing currently selected anim sequence
+[0509.83] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
+[0509.83] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
+[0509.90] Log: Refreshing currently selected anim sequence
+[0509.90] Log: Refreshing currently selected anim sequence
+[0511.33] Log: Refreshing currently selected anim sequence
+[0516.29] Log: Refreshing currently selected anim sequence
+[0521.41] Log: Refreshing currently selected anim sequence
+[0522.32] Log: Refreshing currently selected anim sequence
+[0526.48] Log: Refreshing currently selected anim sequence
+[0533.72] Log: Refreshing currently selected anim sequence
+[0569.30] Log: Refreshing currently selected anim sequence
+[0569.48] Log: Refreshing currently selected anim sequence
+[0579.83] Log: Refreshing currently selected anim sequence
+[0583.67] Log: Refreshing currently selected anim sequence
+[0583.86] Log: Refreshing currently selected anim sequence
+[0600.34] Log: Refreshing currently selected anim sequence
+[0601.39] Log: Refreshing currently selected anim sequence
+[0602.77] Log: Refreshing currently selected anim sequence
+[0603.83] Log: Refreshing currently selected anim sequence
+[0606.85] Log: Refreshing currently selected anim sequence
+[0608.61] Log: Refreshing currently selected anim sequence
+[0611.26] Log: Refreshing currently selected anim sequence
+[0612.24] Log: Refreshing currently selected anim sequence
+[0613.40] Log: Refreshing currently selected anim sequence
+[0650.79] Log: OBJ SavePackage: Generating thumbnails for [34] asset(s) in package [Vehicles] ([61] browsable assets)...
+[0650.79] Log: OBJ SavePackage:     Rendered thumbnail for [ParticleSystem Vehicles.ParticleSystem.Smoke]
+[0650.84] Log: OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh Vehicles.Vehicles.StarterRC]
+[0650.88] Log: OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh Vehicles.Vehicles.Sunfire]
+[0650.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterOther]
+[0650.95] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterWheel]
+[0650.98] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterCarTop]
+[0651.02] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterCarBottom]
+[0651.05] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireWheels]
+[0651.08] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireChasis]
+[0651.12] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireShock]
+[0651.15] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireCover]
+[0651.18] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireWing]
+[0651.22] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_Other]
+[0651.22] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_CarBottem]
+[0651.22] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.NM_CarBottem]
+[0651.23] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireCover]
+[0651.23] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireSuspention]
+[0651.23] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_CarTop]
+[0651.23] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.NM_CarTop]
+[0651.24] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBase]
+[0651.24] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireWheel]
+[0651.24] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireWheelNormal]
+[0651.24] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireWing]
+[0651.25] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.otherBlack]
+[0651.25] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_Car_BlackWheel]
+[0651.25] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.NM_Wheel]
+[0651.26] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackBase]
+[0651.26] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackCover]
+[0651.26] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackSuspention]
+[0651.27] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackWheel]
+[0651.27] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackWing]
+[0651.27] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_Car_Wheel]
+[0651.34] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.ParticleSystem.Smoke_Mat]
+[0651.34] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.ParticleSystem.Smoke]
+[0651.34] Log: OBJ SavePackage: Finished generating thumbnails for package [Vehicles]
+[0651.34] Cmd: OBJ SAVEPACKAGE PACKAGE="Vehicles" FILE="C:\UDK\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\Vehicles_Auto2.upk" SILENT=TRUE
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.42] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.43] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.43] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.43] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.43] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.43] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.43] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.43] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[0651.61] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.StarterRC'
+[0652.79] Log: --- Bone: Bone_Root  Tris: 12811
+[0652.79] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.Sunfire'
+[0654.00] Log: --- Bone: Bone_Root  Tris: 11084
+[0654.00] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.BlackStarterRC'
+[0655.18] Log: --- Bone: Bone_Root  Tris: 12811
+[0655.19] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.BlackSunfire'
+[0656.38] Log: --- Bone: Bone_Root  Tris: 11084
+[0668.51] Log: Save=16997.486939
+[0668.51] Log: Moving 'C:\UDK\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\Vehicles_Auto2_save.tmp' to 'C:\UDK\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\Vehicles_Auto2.upk'
+[0683.77] Log: Refreshing currently selected anim sequence
+[0683.89] Log: Refreshing currently selected anim sequence
+[0745.78] Log: Refreshing currently selected anim sequence
+[0746.00] Log: Refreshing currently selected anim sequence
+[0746.73] Log: Refreshing currently selected anim sequence
+[0747.54] Log: Refreshing currently selected anim sequence
+[0748.35] Log: Refreshing currently selected anim sequence
+[0755.39] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
+[0755.47] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
+[0755.48] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
+[0755.48] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
+[0755.48] Log: Refreshing currently selected anim sequence
+[0755.48] Log: Refreshing currently selected anim sequence
+[0755.48] Log: Refreshing currently selected anim sequence
+[0755.48] Log: Refreshing currently selected anim sequence
+[0770.27] Log: Refreshing currently selected anim sequence
+[0770.49] Log: Refreshing currently selected anim sequence
+[0802.36] Log: Refreshing currently selected anim sequence
+[0806.84] Log: Refreshing currently selected anim sequence
+[0810.29] Log: Refreshing currently selected anim sequence
+[0841.99] Log: Refreshing currently selected anim sequence
+[0842.22] Log: Refreshing currently selected anim sequence
+[0874.27] Log: Refreshing currently selected anim sequence
+[0874.50] Log: Refreshing currently selected anim sequence
+[0881.43] Log: Refreshing currently selected anim sequence
+[0886.82] Log: Refreshing currently selected anim sequence
+[0896.41] Log: Refreshing currently selected anim sequence
+[0903.55] Log: Refreshing currently selected anim sequence
+[0903.67] Log: Refreshing currently selected anim sequence
+[0908.68] Log: Refreshing currently selected anim sequence
+[0910.52] Log: Refreshing currently selected anim sequence
+[0911.99] Log: Refreshing currently selected anim sequence
+[0919.05] Log: Refreshing currently selected anim sequence
+[0924.94] Log: Refreshing currently selected anim sequence
+[0928.28] Log: Refreshing currently selected anim sequence
+[1020.53] Log: saving as ..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk
+[1020.55] Log: OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [Vehicles] ([61] browsable assets)...
+[1020.57] Log: OBJ SavePackage: Finished generating thumbnails for package [Vehicles]
+[1020.57] Cmd: OBJ SAVEPACKAGE PACKAGE="Vehicles" FILE="..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk"
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.59] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
+[1020.75] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.StarterRC'
+[1021.41] Log: --- Bone: Bone_Root  Tris: 12811
+[1021.41] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.Sunfire'
+[1022.10] Log: --- Bone: Bone_Root  Tris: 11084
+[1022.10] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.BlackStarterRC'
+[1022.76] Log: --- Bone: Bone_Root  Tris: 12811
+[1022.76] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.BlackSunfire'
+[1023.44] Log: --- Bone: Bone_Root  Tris: 11084
+[1023.97] Log: Save=3265.139188
+[1023.97] Log: Moving '..\..\UDKGame\Content\Revamped\Vehicles\Vehicles_save.tmp' to '..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk'
+[1025.19] Log: Primary PhysX scene will be in software.
+[1025.19] Log: Creating Primary PhysX Scene.
+[1044.14] Log: 
+==== Worlds needing PIE Save:
+[1044.14] Log: ==== 0 total
+[1044.14] Cmd: MAP LOAD PLAYWORLD=1 FILE="C:\UDK\Revamped\UDK\Binaries\Win32\..\..\UDKGame\Autosaves\UEDPIEmenumap.udk"
+[1044.38] Warning: MaterialInterface in map - disabling mobile emulation of it: uedpiemenumap.LandscapeMaterialInstanceConstant_0
+[1044.40] Warning: MaterialInterface in map - disabling mobile emulation of it: uedpiemenumap.LandscapeMaterialInstanceConstant_10
+[1044.40] Warning: MaterialInterface in map - disabling mobile emulation of it: uedpiemenumap.LandscapeMaterialInstanceConstant_8
+[1044.41] Warning: MaterialInterface in map - disabling mobile emulation of it: uedpiemenumap.LandscapeMaterialInstanceConstant_9
+[1044.54] Log: Finished looking for orphan Actors (0.009 secs)
+[1044.54] Log: Game class is 'RCMainMenu'
+[1044.62] Log: Primary PhysX scene will be in software.
+[1044.62] Log: Creating Primary PhysX Scene.
+[1044.63] Log: Bringing World uedpiemenumap.TheWorld up for play (0) at 2014.05.28-22.40.26
+[1044.64] Log: Bringing up level for play took: 0.055188
+[1044.71] Log: PIE: play in editor start time for UEDPIEmenumap 0.998
+[1044.71] Cmd: SetupMenu Main
+[1044.90] Cmd: UpdateLandscapeEditorData
+[1048.24] Cmd: SetupMenu Single
+[1053.71] Cmd: open Circuit1
+[1053.71] Log: Command not recognized: open Circuit1
+[1067.10] Cmd: UpdateLandscapeSetup
+[1143.88] Log: === Critical error: ===
 Fatal error!
 
-Address = 0x16c6ede6 (filename not found) [in C:\windows\system32\atioglxx.dll]
-
-[0048.23] Critical: Windows GetLastError: Invalid window handle. (1400)
-[0048.23] Log: === Critical error: ===
-Rendering thread exception:
-Fatal error!
-
-Address = 0x16c6ede6 (filename not found) [in C:\windows\system32\atioglxx.dll]
-=======
-[0000.35] Init: Computer: ILYA-LAPTOP
-[0000.35] Init: User: Ilya
-[0000.35] Init: CPU Page size=4096, Processors=2
-[0000.35] Init: High frequency timer resolution =1.948222 MHz
-[0000.35] Init: Memory total: Physical=2.7GB (2GB approx) Pagefile=5.5GB Virtual=2.0GB
-[0000.35] Log: Steam Client API Disabled!
-[0000.40] Init: WinSock: I am Ilya-Laptop (192.168.1.11:0)
-[0000.40] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[0000.40] Init: Object subsystem initialized
-[0000.48] Log: SystemSettings based on: SystemSettings
-[0000.49] Log: Shader platform (RHI): PC-D3D-SM3
-[0001.04] Log: PhysX GPU Support: DISABLED
-[0001.05] Init: Initializing FaceFX...
-[0001.05] Init: FaceFX 1.7.4 initialized.
-[0004.14] Init: Finished loading startup packages in 2.65 seconds
-[0004.15] Log: 51397 objects as part of root set at end of initial load.
-[0004.15] Log: 0 out of 0 bytes used by permanent object pool.
-[0004.15] Log: Initializing Engine...
-[0004.21] Init: UEngine initialized
-[0004.22] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[0004.29] Init: XAudio2Device initialized.
-[0004.39] Init: Client initialized
-[0004.41] Log: FES2Viewport::FES2Viewport InWindowHandle is 90c7e
-[0004.55] Log: Vendor: ATI Technologies Inc.
-[0004.55] Log: Renderer: AMD M860G with ATI Mobility Radeon 4100 
-[0004.55] Log: Supports Shader Discard: TRUE
-[0004.55] Log: Supports Shader Bump Offset: TRUE
-[0004.55] Log: ES2 Texture Support [ DXT - - - ]
-[0004.55] Log: Driver Compiler? ... no, Num Binary Formats = 0
-[0004.55] Log: GL Extensions:
-[0004.55] Log:     GL_AMD_draw_buffers_blend
-[0004.55] Log:     GL_AMD_performance_monitor
-[0004.55] Log:     GL_ARB_color_buffer_float
-[0004.55] Log:     GL_ARB_copy_buffer
-[0004.55] Log:     GL_ARB_depth_buffer_float
-[0004.55] Log:     GL_ARB_depth_texture
-[0004.55] Log:     GL_ARB_draw_buffers
-[0004.55] Log:     GL_ARB_draw_instanced
-[0004.55] Log:     GL_ARB_fragment_program
-[0004.55] Log:     GL_ARB_fragment_program_shadow
-[0004.55] Log:     GL_ARB_fragment_shader
-[0004.55] Log:     GL_ARB_framebuffer_object
-[0004.55] Log:     GL_ARB_framebuffer_sRGB
-[0004.55] Log:     GL_ARB_half_float_pixel
-[0004.55] Log:     GL_ARB_half_float_vertex
-[0004.55] Log:     GL_ARB_instanced_arrays
-[0004.55] Log:     GL_ARB_map_buffer_range
-[0004.55] Log:     GL_ARB_multisample
-[0004.55] Log:     GL_ARB_multitexture
-[0004.55] Log:     GL_ARB_occlusion_query
-[0004.55] Log:     GL_ARB_pixel_buffer_object
-[0004.55] Log:     GL_ARB_point_parameters
-[0004.55] Log:     GL_ARB_point_sprite
-[0004.55] Log:     GL_ARB_shader_objects
-[0004.55] Log:     GL_ARB_shader_texture_lod
-[0004.55] Log:     GL_ARB_shading_language_100
-[0004.55] Log:     GL_ARB_shadow
-[0004.55] Log:     GL_ARB_shadow_ambient
-[0004.55] Log:     GL_ARB_texture_border_clamp
-[0004.55] Log:     GL_ARB_texture_buffer_object
-[0004.55] Log:     GL_ARB_texture_compression
-[0004.55] Log:     GL_ARB_texture_compression_rgtc
-[0004.55] Log:     GL_ARB_texture_cube_map
-[0004.55] Log:     GL_ARB_texture_env_add
-[0004.55] Log:     GL_ARB_texture_env_combine
-[0004.55] Log:     GL_ARB_texture_env_crossbar
-[0004.55] Log:     GL_ARB_texture_env_dot3
-[0004.55] Log:     GL_ARB_texture_float
-[0004.55] Log:     GL_ARB_texture_mirrored_repeat
-[0004.55] Log:     GL_ARB_texture_non_power_of_two
-[0004.55] Log:     GL_ARB_texture_rectangle
-[0004.55] Log:     GL_ARB_texture_rg
-[0004.55] Log:     GL_ARB_texture_snorm
-[0004.55] Log:     GL_ARB_transpose_matrix
-[0004.55] Log:     GL_ARB_vertex_array_object
-[0004.55] Log:     GL_ARB_vertex_buffer_object
-[0004.55] Log:     GL_ARB_vertex_program
-[0004.55] Log:     GL_ARB_vertex_shader
-[0004.55] Log:     GL_ARB_window_pos
-[0004.55] Log:     GL_ATI_draw_buffers
-[0004.55] Log:     GL_ATI_envmap_bumpmap
-[0004.55] Log:     GL_ATI_fragment_shader
-[0004.55] Log:     GL_ATI_meminfo
-[0004.55] Log:     GL_ATI_separate_stencil
-[0004.55] Log:     GL_ATI_texture_compression_3dc
-[0004.55] Log:     GL_ATI_texture_env_combine3
-[0004.55] Log:     GL_ATI_texture_float
-[0004.55] Log:     GL_ATI_texture_mirror_once
-[0004.55] Log:     GL_EXT_abgr
-[0004.55] Log:     GL_EXT_bgra
-[0004.55] Log:     GL_EXT_bindable_uniform
-[0004.55] Log:     GL_EXT_blend_color
-[0004.55] Log:     GL_EXT_blend_equation_separate
-[0004.55] Log:     GL_EXT_blend_func_separate
-[0004.55] Log:     GL_EXT_blend_minmax
-[0004.55] Log:     GL_EXT_blend_subtract
-[0004.55] Log:     GL_EXT_compiled_vertex_array
-[0004.55] Log:     GL_EXT_copy_buffer
-[0004.55] Log:     GL_EXT_copy_texture
-[0004.55] Log:     GL_EXT_draw_buffers2
-[0004.55] Log:     GL_EXT_draw_instanced
-[0004.55] Log:     GL_EXT_draw_range_elements
-[0004.55] Log:     GL_EXT_fog_coord
-[0004.55] Log:     GL_EXT_framebuffer_blit
-[0004.55] Log:     GL_EXT_framebuffer_multisample
-[0004.55] Log:     GL_EXT_framebuffer_object
-[0004.55] Log:     GL_EXT_framebuffer_sRGB
-[0004.55] Log:     GL_EXT_gpu_program_parameters
-[0004.55] Log:     GL_EXT_gpu_shader4
-[0004.55] Log:     GL_EXT_multi_draw_arrays
-[0004.55] Log:     GL_EXT_packed_depth_stencil
-[0004.55] Log:     GL_EXT_packed_float
-[0004.55] Log:     GL_EXT_packed_pixels
-[0004.55] Log:     GL_EXT_pixel_buffer_object
-[0004.55] Log:     GL_EXT_point_parameters
-[0004.55] Log:     GL_EXT_provoking_vertex
-[0004.55] Log:     GL_EXT_rescale_normal
-[0004.55] Log:     GL_EXT_secondary_color
-[0004.55] Log:     GL_EXT_separate_specular_color
-[0004.55] Log:     GL_EXT_shadow_funcs
-[0004.55] Log:     GL_EXT_stencil_wrap
-[0004.55] Log:     GL_EXT_subtexture
-[0004.55] Log:     GL_EXT_texgen_reflection
-[0004.55] Log:     GL_EXT_texture3D
-[0004.55] Log:     GL_EXT_texture_array
-[0004.55] Log:     GL_EXT_texture_buffer_object
-[0004.55] Log:     GL_EXT_texture_compression_latc
-[0004.55] Log:     GL_EXT_texture_compression_rgtc
-[0004.55] Log:     GL_EXT_texture_compression_s3tc
-[0004.55] Log:     GL_EXT_texture_cube_map
-[0004.55] Log:     GL_EXT_texture_edge_clamp
-[0004.55] Log:     GL_EXT_texture_env_add
-[0004.55] Log:     GL_EXT_texture_env_combine
-[0004.55] Log:     GL_EXT_texture_env_dot3
-[0004.55] Log:     GL_EXT_texture_filter_anisotropic
-[0004.55] Log:     GL_EXT_texture_integer
-[0004.55] Log:     GL_EXT_texture_lod
-[0004.55] Log:     GL_EXT_texture_lod_bias
-[0004.55] Log:     GL_EXT_texture_mirror_clamp
-[0004.55] Log:     GL_EXT_texture_object
-[0004.55] Log:     GL_EXT_texture_rectangle
-[0004.55] Log:     GL_EXT_texture_sRGB
-[0004.55] Log:     GL_EXT_texture_shared_exponent
-[0004.55] Log:     GL_EXT_texture_snorm
-[0004.55] Log:     GL_EXT_texture_swizzle
-[0004.55] Log:     GL_EXT_transform_feedback
-[0004.55] Log:     GL_EXT_vertex_array
-[0004.55] Log:     GL_EXT_vertex_array_bgra
-[0004.55] Log:     GL_IBM_texture_mirrored_repeat
-[0004.55] Log:     GL_KTX_buffer_region
-[0004.55] Log:     GL_NV_blend_square
-[0004.55] Log:     GL_NV_conditional_render
-[0004.55] Log:     GL_NV_copy_depth_to_color
-[0004.55] Log:     GL_NV_primitive_restart
-[0004.55] Log:     GL_NV_texgen_reflection
-[0004.55] Log:     GL_SGIS_generate_mipmap
-[0004.55] Log:     GL_SGIS_texture_edge_clamp
-[0004.55] Log:     GL_SGIS_texture_lod
-[0004.55] Log:     GL_SUN_multi_draw_arrays
-[0004.55] Log:     GL_WIN_swap_hint
-[0004.55] Log:     WGL_EXT_swap_control
-[0004.55] Log: GL_MAX_VERTEX_UNIFORM_VECTORS = Not supported
-[0004.55] Log: GL_MAX_VARYING_VECTORS = Not supported
-[0004.55] Log: GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS = 16
-[0004.55] Log: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
-[0004.55] Log: GL_MAX_TEXTURE_IMAGE_UNITS = 16
-[0004.55] Log: GL_MAX_FRAGMENT_UNIFORM_VECTORS = Not supported
-[0004.55] Log: GL_MAX_TEXTURE_SIZE = 8192
-[0004.55] Log: GL_MAX_VIEWPORT_DIMS = 8192
-[0004.55] Log: GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT = 16
-[0004.55] Log: GL_SUBPIXEL_BITS = 8
-[0004.55] Log: GL_MAX_VERTEX_ATTRIBS = 16
-[0004.55] Log: Viewport resolution: [640x400]
-[0004.59] Log: Failed to load ShaderGroups.bin
-[0004.59] Log: StartCompilingShaderGroup: StartupPackages
-[0004.59] Log: Compiled 0 Shaders in group StartupPackages
-[0004.59] Log: StartCompilingShaderGroup  0.89 ms total.
-[0004.59] Log: StartCompilingShaderGroup: UnGrouped
-[0004.59] Log: Compiled 0 Shaders in group UnGrouped
-[0004.59] Log: StartCompilingShaderGroup  0.02 ms total.
-[0004.59] Log: Steam Client API is unavailable
-[0004.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0004.60] Warning: Warning, Failed to find object 'Class None.'
-[0004.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0004.60] Warning: Warning, Failed to find object 'Class None.'
-[0004.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0004.60] Warning: Warning, Failed to find object 'Class None.'
-[0004.60] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
-[0004.60] Warning: Warning, Failed to find object 'Class None.'
-[0004.60] Log: LoadMap: MenuMap?Name=Player?Team=255
-[0004.74] Log: Game class is 'RCMainMenu'
-[0004.79] Log: Primary PhysX scene will be in software.
-[0004.79] Log: Creating Primary PhysX Scene.
-[0004.80] Log: Bringing World MenuMap.TheWorld up for play (0) at 2014.05.28-19.39.17
-[0004.80] Log: Bringing up level for play took: 0.044822
-[0004.81] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
-[0004.81] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
-[0004.81] Error: Can't start an online game that hasn't been created
-[0004.81] Log: ########### Finished loading level: 0.206526 seconds
-[0005.36] Init: Game engine initialized
-[0005.36] Log: Initializing Engine Completed
-[0005.36] Log: >>>>>>>>>>>>>> Initial startup: 5.36s <<<<<<<<<<<<<<<
-[0005.42] Log: WarmShaderCache
-[0005.42] Log: WarmShaderCache:ShadersWarmed 9
-[0015.37] ScriptLog: StaticMeshActor_49 StaticMeshActor_49 0.0000 0.3300 0
-[0024.33] ScriptLog: StaticMeshActor_49 StaticMeshActor_49 9.9846 0.3300 0
-[0024.90] Log: LoadMap: Circuit3?Name=Player?Team=255
-[0024.91] Log: --- LOADING MOVIE START ---
-[0024.94] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
-	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
-	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
-[0038.86] Log: Game class is 'RCTimeAttack'
-[0038.99] Log: Primary PhysX scene will be in software.
-[0038.99] Log: Creating Primary PhysX Scene.
-[0039.00] Log: Bringing World circuit3.TheWorld up for play (0) at 2014.05.28-19.39.51
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (0/0)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/1)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/1)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (1/1)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (2/2)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/3)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/3)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/3)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/3)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/3)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:0090
-[0039.01] ScriptWarning: Accessed array 'RCTimeAttack_0.Checkpoints' out of bounds (-1/3)
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCTimeAttack:PopulateCheckpointArray:00BB
-[0039.01] ScriptLog: Found 3 Checkpoints!
-[0039.01] ScriptLog: Current Spawn Location Count: 2
-[0039.01] Log: Bringing up level for play took: 0.147086
-[0039.01] ScriptLog: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[0039.02] ScriptLog: FAILED_________________________
-[0039.02] ScriptWarning: Accessed None 'RCRep'
-	RCTimeAttackScene circuit3.TheWorld:PersistentLevel.RCPlayerController_0.RCTimeAttackScene_0
-	Function LDS.RCTimeAttackScene:LoadMenuInfo:009D
-[0039.02] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
-[0039.02] ScriptWarning: Accessed None 'Profile'
-	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
-	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
-[0039.02] ScriptWarning: CANNOT SPAWN PLAYER! No RCSpawnPoint Found
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCBaseGame:RestartPlayer:0165
-[0039.02] Error: Can't start an online game that hasn't been created
-[0039.02] Log: ########### Finished loading level: 14.120375 seconds
-[0040.90] Log: Save=1284.028720
-[0040.90] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
-[0041.12] Log: --- LOADING MOVIE TIME: 16.2 sec ---
-[0043.87] ScriptWarning: Accessed None 'RCRep'
-	RCPlayerController circuit3.TheWorld:PersistentLevel.RCPlayerController_0
-	Function LDS.RCPlayerController:ResetRC:001E
-[0043.87] ScriptWarning: Accessed None 'PlayerRCCar'
-	RCPlayerController circuit3.TheWorld:PersistentLevel.RCPlayerController_0
-	Function LDS.RCPlayerController:ResetRC:0197
-[0043.87] ScriptLog: No Driver
-[0060.40] ScriptLog: Landscape_0 Landscape_0 0.0000 0.3300 0
-[0060.40] ScriptWarning: CANNOT SPAWN PLAYER! No RCSpawnPoint Found
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCBaseGame:RestartPlayer:0165
-[0061.27] ScriptWarning: Accessed None 'RCRep'
-	RCPlayerController circuit3.TheWorld:PersistentLevel.RCPlayerController_0
-	Function LDS.RCPlayerController:ResetRC:001E
-[0061.27] ScriptWarning: Accessed None 'PlayerRCCar'
-	RCPlayerController circuit3.TheWorld:PersistentLevel.RCPlayerController_0
-	Function LDS.RCPlayerController:ResetRC:0197
-[0061.27] ScriptLog: No Driver
-[0061.58] ScriptWarning: Accessed None 'RCRep'
-	RCPlayerController circuit3.TheWorld:PersistentLevel.RCPlayerController_0
-	Function LDS.RCPlayerController:ResetRC:001E
-[0061.58] ScriptWarning: Accessed None 'PlayerRCCar'
-	RCPlayerController circuit3.TheWorld:PersistentLevel.RCPlayerController_0
-	Function LDS.RCPlayerController:ResetRC:0197
-[0061.58] ScriptLog: No Driver
-[0066.34] ScriptLog: StaticMeshActor_65 StaticMeshActor_65 19.3460 0.3300 0
-[0066.34] ScriptWarning: CANNOT SPAWN PLAYER! No RCSpawnPoint Found
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCBaseGame:RestartPlayer:0165
-[0066.80] ScriptLog: StaticMeshActor_65 StaticMeshActor_65 22.4231 0.3300 0
-[0066.80] ScriptWarning: CANNOT SPAWN PLAYER! No RCSpawnPoint Found
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCBaseGame:RestartPlayer:0165
-[0067.32] ScriptLog: StaticMeshActor_65 StaticMeshActor_65 22.8832 0.3300 0
-[0067.32] ScriptWarning: CANNOT SPAWN PLAYER! No RCSpawnPoint Found
-	RCTimeAttack circuit3.TheWorld:PersistentLevel.RCTimeAttack_0
-	Function LDS.RCBaseGame:RestartPlayer:0165
-[0067.83] ScriptWarning: Accessed None 'PlayerRCCar'
-	RCTimeAttackScene circuit3.TheWorld:PersistentLevel.RCPlayerController_0.RCTimeAttackScene_0
-	Function LDS.RCTimeAttackScene:OnTouch:0282
-[0067.83] ScriptWarning: Accessed None 'RCRep'
-	RCTimeAttackScene circuit3.TheWorld:PersistentLevel.RCPlayerController_0.RCTimeAttackScene_0
-	Function LDS.RCTimeAttackScene:OnTouch:02B7
-[0067.83] ScriptWarning: Attempt to assign variable through None
-	RCTimeAttackScene circuit3.TheWorld:PersistentLevel.RCPlayerController_0.RCTimeAttackScene_0
-	Function LDS.RCTimeAttackScene:OnTouch:02CB
-[0067.83] ScriptWarning: Accessed None 'PlayerRCCar'
-	RCTimeAttackScene circuit3.TheWorld:PersistentLevel.RCPlayerController_0.RCTimeAttackScene_0
-	Function LDS.RCTimeAttackScene:OnTouch:02EA
-[0073.41] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
-	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
-	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
-[0073.41] Log: All Windows Closed
-[0073.41] Log: appRequestExit(0)
-[0077.50] Critical: appError called: Rendering thread exception:
-Fatal error!
-
-Address = 0x1684ede6 (filename not found) [in C:\windows\system32\atioglxx.dll]
-
-[0077.50] Critical: Windows GetLastError: Invalid window handle. (1400)
-[0077.51] Log: === Critical error: ===
-Rendering thread exception:
-Fatal error!
-
-Address = 0x1684ede6 (filename not found) [in C:\windows\system32\atioglxx.dll]
->>>>>>> 55ffc99519062aa32917c6fc99c16e10d117c470
-
-
+Address = 0x217ad6a  (filename not found) [in C:\UDK\Revamped\UDK\Binaries\Win32\UDK.exe]
+Address = 0x217beea  (filename not found) [in C:\UDK\Revamped\UDK\Binaries\Win32\UDK.exe]
+Address = 0xd5e411   (filename not found) [in C:\UDK\Revamped\UDK\Binaries\Win32\UDK.exe]
 
