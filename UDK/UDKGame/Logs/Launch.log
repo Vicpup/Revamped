@@ -1,205 +1,267 @@
-Log: Log file open, 05/27/14 23:23:01
+Log: Log file open, 05/28/14 21:01:45
 Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+DevConfig: GConfig::LoadFile associated file:  ..\..\UDKGame\Config\Mobile-UDKUI.ini
 DevConfig: GConfig::Find has loaded file:  ..\..\Engine\Config\ConsoleVariables.ini
 Init: Version: 12097
 Init: Epic Internal: 0
 Init: Compiled (32-bit): Feb 17 2014 13:31:14
 Init: Changelist: 1999891
-Init: Command line: editor 
+Init: Command line: MenuMap -simmobile ResX=640 ResY=400 
 Init: Base directory: C:\UDK\Revamped\UDK\Binaries\Win32\
-[0000.36] Init: Computer: ILYA-LAPTOP
-[0000.36] Init: User: Ilya
-[0000.36] Init: CPU Page size=4096, Processors=2
-[0000.36] Init: High frequency timer resolution =1.948222 MHz
-[0000.36] Init: Memory total: Physical=2.7GB (2GB approx) Pagefile=5.5GB Virtual=2.0GB
-[0000.36] Log: Steam Client API Disabled!
-[0000.41] Init: WinSock: I am Ilya-Laptop (192.168.1.11:0)
-[0000.41] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[0000.41] Init: Object subsystem initialized
-[0000.49] Log: SystemSettings based on: SystemSettings
-[0000.53] Log: Shader platform (RHI): PC-D3D-SM3
-[0001.16] Log: PhysX GPU Support: DISABLED
-[0001.17] Init: Initializing FaceFX...
-[0001.17] Init: FaceFX 1.7.4 initialized.
-[0020.33] Log: Failed to load 'FX_HitEffects': Can't find file 'FX_HitEffects'
-[0020.36] Init: Finished loading startup packages in 6.35 seconds
-[0020.38] Log: 55823 objects as part of root set at end of initial load.
-[0020.38] Log: 0 out of 0 bytes used by permanent object pool.
-[0023.24] Log: Supported Consoles:
-[0023.24] Log:   IPhone
-[0023.24] Log:   Mac
-[0023.24] Log:   PC
-[0023.24] Log: Initializing Engine...
-[0024.34] Log: Encountered missing default brush - spawning new one
-[0024.42] Init: UEngine initialized
-[0024.42] Log: Primary PhysX scene will be in software.
-[0024.42] Log: Creating Primary PhysX Scene.
-[0024.73] Init: Transaction tracking system initialized
-[0024.80] Log: Can't find edit package 'OnlineSubsystemGameSpy'
-[0024.80] Log: Can't find edit package 'OnlineSubsystemLive'
-[0026.50] Log: Missing cached shader map for material Smoke_Mat, quality 0, compiling.
-[0028.40] Log: Missing cached shader map for material BlackStarterOther, quality 0, compiling.
-[0034.28] Log: Missing cached shader map for material BlackStarterTop, quality 0, compiling.
-[0039.51] Log: Missing cached shader map for material BlackStarterWheel, quality 0, compiling.
-[0044.81] Log: Missing cached shader map for material BlackSunfireChasis, quality 0, compiling.
-[0049.44] Log: Missing cached shader map for material BlackSunfireCover, quality 0, compiling.
-[0054.56] Log: Missing cached shader map for material BlackSunfireShock, quality 0, compiling.
-[0064.06] Log: Missing cached shader map for material BlackSunfireWheels, quality 0, compiling.
-[0068.99] Log: Missing cached shader map for material BlackSunfireWing, quality 0, compiling.
-[0074.49] Log: Missing cached shader map for material StarterCarBottom, quality 0, compiling.
-[0080.05] Log: Missing cached shader map for material StarterCarTop, quality 0, compiling.
-[0085.16] Log: Missing cached shader map for material StarterOther, quality 0, compiling.
-[0090.52] Log: Missing cached shader map for material StarterWheel, quality 0, compiling.
-[0096.74] Log: Missing cached shader map for material SunfireChasis, quality 0, compiling.
-[0102.51] Log: Missing cached shader map for material SunfireCover, quality 0, compiling.
-[0107.38] Log: Missing cached shader map for material SunfireShock, quality 0, compiling.
-[0116.58] Log: Missing cached shader map for material SunfireWheels, quality 0, compiling.
-[0121.60] Log: Missing cached shader map for material SunfireWing, quality 0, compiling.
-[0127.25] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[0128.02] Init: XAudio2Device initialized.
-[0129.96] Init: Client initialized
-[0129.98] Init: Editor engine initialized
-[0130.89] Log: Initializing Engine Completed
-[0130.89] Log: >>>>>>>>>>>>>> Initial startup: 130.89s <<<<<<<<<<<<<<<
-[0131.70] Cmd: MODE MAPEXT=udk
-[0133.38] SourceControl: Source Control disabled in UDKEditorUserSettings.ini.  [SourceControl] has Disabled=True
-[0156.87] Cmd: MAP LOAD FILE="..\..\Engine\Content\Maps\Templates\Template_MidDay.umap" TEMPLATE=0
-[0159.15] Log: Encountered missing default brush - spawning new one
-[0160.65] Log: New File, Existing Package (Package Untitled_2, Package template_midday)
-[0162.23] Log: -- Checking Building LODs
-[0162.25] Log: Primary PhysX scene will be in software.
-[0162.25] Log: Creating Primary PhysX Scene.
-[0162.26] Log: Finished looking for orphan Actors (0.005 secs)
-[0162.35] Cmd: MAP CHECKDEP DONTCLEARMESSAGES DONTDOSLOWREFCHECK
-[0162.47] Log: Save=121.675045
-[0162.47] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
-[0162.51] Log: TIMER ALL OF INIT : [161.199251]
-[0214.77] Log: Primary PhysX scene will be in software.
-[0214.77] Log: Creating Primary PhysX Scene.
-[0215.12] Log: UpdatePreviewMesh: 0, StarterRC
-[0215.12] Log: UpdatePreviewAnimSet: 0
-[0215.12] Log: Refreshing currently selected anim sequence
-[0234.45] Log: Refreshing currently selected anim sequence
-[0301.30] Log: Refreshing currently selected anim sequence
-[0301.48] Log: Refreshing currently selected anim sequence
-[0312.38] Log: Refreshing currently selected anim sequence
-[0313.63] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
-[0314.06] Log: Refreshing currently selected anim sequence
-[0317.89] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
-[0317.96] Log: Refreshing currently selected anim sequence
-[0325.37] Warning: Failed to load 'Object None.': Failed to find object 'Object None.'
-[0325.45] Log: Refreshing currently selected anim sequence
-[0329.13] Log: Refreshing currently selected anim sequence
-[0350.21] Log: Refreshing currently selected anim sequence
-[0350.40] Log: Refreshing currently selected anim sequence
-[0352.02] Log: Refreshing currently selected anim sequence
-[0356.78] Log: Refreshing currently selected anim sequence
-[0357.41] Log: Refreshing currently selected anim sequence
-[0360.98] Log: Refreshing currently selected anim sequence
-[0374.46] Log: Refreshing currently selected anim sequence
-[0402.15] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading ..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk
-[0402.15] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading ..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk
-[0402.15] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.15] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.15] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.15] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.15] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.16] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.17] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.18] Log: Failed to load 'utgame': Can't find file for package 'utgame' while loading NULL
-[0402.56] Log: saving as ..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk
-[0402.62] Log: OBJ SavePackage: Generating thumbnails for [34] asset(s) in package [Vehicles] ([61] browsable assets)...
-[0402.63] Log: OBJ SavePackage:     Rendered thumbnail for [ParticleSystem Vehicles.ParticleSystem.Smoke]
-[0402.69] Log: OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh Vehicles.Vehicles.StarterRC]
-[0402.74] Log: OBJ SavePackage:     Rendered thumbnail for [SkeletalMesh Vehicles.Vehicles.Sunfire]
-[0402.77] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterOther]
-[0402.79] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterWheel]
-[0402.82] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterCarTop]
-[0402.85] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.StarterCarBottom]
-[0402.88] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireWheels]
-[0402.91] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireChasis]
-[0402.94] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireShock]
-[0402.97] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireCover]
-[0402.99] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.Materials.SunfireWing]
-[0403.00] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_Other]
-[0403.01] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_Car_Wheel]
-[0403.01] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.NM_Wheel]
-[0403.01] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_CarTop]
-[0403.02] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.NM_CarTop]
-[0403.02] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_CarBottem]
-[0403.02] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.NM_CarBottem]
-[0403.03] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.otherBlack]
-[0403.03] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.T_Car_BlackWheel]
-[0403.04] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackBase]
-[0403.05] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackCover]
-[0403.05] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackSuspention]
-[0403.06] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackWheel]
-[0403.06] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireWheelNormal]
-[0403.07] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBlackWing]
-[0403.07] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireBase]
-[0403.08] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireCover]
-[0403.08] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireSuspention]
-[0403.08] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireWheel]
-[0403.09] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.Textures.SunfireWing]
-[0403.13] Log: OBJ SavePackage:     Rendered thumbnail for [Material Vehicles.ParticleSystem.Smoke_Mat]
-[0403.13] Log: OBJ SavePackage:     Rendered thumbnail for [Texture2D Vehicles.ParticleSystem.Smoke]
-[0403.14] Log: OBJ SavePackage: Finished generating thumbnails for package [Vehicles]
-[0403.14] Cmd: OBJ SAVEPACKAGE PACKAGE="Vehicles" FILE="..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk"
-[0403.54] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0403.55] Warning: ConditionalFlattenMaterial: Invalid FlattenType: 2
-[0404.09] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.StarterRC'
-[0405.18] Log: --- Bone: Bone_Root  Tris: 12811
-[0405.19] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.Sunfire'
-[0405.90] Log: --- Bone: Bone_Root  Tris: 11084
-[0405.91] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.BlackStarterRC'
-[0406.59] Log: --- Bone: Bone_Root  Tris: 12811
-[0406.60] Log: Building per-poly collision kDOP trees for 'Vehicles.Vehicles.BlackSunfire'
-[0407.30] Log: --- Bone: Bone_Root  Tris: 11084
-[0418.49] Log: Save=14573.784712
-[0418.49] Log: Moving '..\..\UDKGame\Content\Revamped\Vehicles\Vehicles_save.tmp' to '..\..\UDKGame\Content\Revamped\Vehicles\Vehicles.upk'
-[0432.68] Log: Primary PhysX scene will be in software.
-[0432.68] Log: Creating Primary PhysX Scene.
-[0432.86] Log: UpdatePreviewMesh: 0, Sunfire
-[0432.86] Log: UpdatePreviewAnimSet: 0
-[0432.87] Log: Refreshing currently selected anim sequence
-[0610.56] Log: === Critical error: ===
+[0000.74] Init: Computer: ILYA-LAPTOP
+[0000.74] Init: User: Ilya
+[0000.74] Init: CPU Page size=4096, Processors=2
+[0000.74] Init: High frequency timer resolution =1.948222 MHz
+[0000.74] Init: Memory total: Physical=2.7GB (2GB approx) Pagefile=5.5GB Virtual=2.0GB
+[0000.74] Log: Steam Client API Disabled!
+[0000.79] Init: WinSock: I am Ilya-Laptop (192.168.1.11:0)
+[0000.79] Init: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[0000.79] Init: Object subsystem initialized
+[0000.92] Log: SystemSettings based on: SystemSettings
+[0000.93] Log: Shader platform (RHI): PC-D3D-SM3
+[0002.90] Log: PhysX GPU Support: DISABLED
+[0002.91] Init: Initializing FaceFX...
+[0002.91] Init: FaceFX 1.7.4 initialized.
+[0006.76] Init: Finished loading startup packages in 3.35 seconds
+[0006.79] Log: 51397 objects as part of root set at end of initial load.
+[0006.79] Log: 0 out of 0 bytes used by permanent object pool.
+[0006.79] Log: Initializing Engine...
+[0006.92] Init: UEngine initialized
+[0006.94] Init: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[0007.11] Init: XAudio2Device initialized.
+[0007.45] Init: Client initialized
+[0007.47] Log: FES2Viewport::FES2Viewport InWindowHandle is e0a30
+[0007.85] Log: Vendor: ATI Technologies Inc.
+[0007.85] Log: Renderer: AMD M860G with ATI Mobility Radeon 4100 
+[0007.85] Log: Supports Shader Discard: TRUE
+[0007.85] Log: Supports Shader Bump Offset: TRUE
+[0007.85] Log: ES2 Texture Support [ DXT - - - ]
+[0007.85] Log: Driver Compiler? ... no, Num Binary Formats = 0
+[0007.85] Log: GL Extensions:
+[0007.85] Log:     GL_AMD_draw_buffers_blend
+[0007.85] Log:     GL_AMD_performance_monitor
+[0007.85] Log:     GL_ARB_color_buffer_float
+[0007.85] Log:     GL_ARB_copy_buffer
+[0007.85] Log:     GL_ARB_depth_buffer_float
+[0007.85] Log:     GL_ARB_depth_texture
+[0007.85] Log:     GL_ARB_draw_buffers
+[0007.85] Log:     GL_ARB_draw_instanced
+[0007.85] Log:     GL_ARB_fragment_program
+[0007.85] Log:     GL_ARB_fragment_program_shadow
+[0007.85] Log:     GL_ARB_fragment_shader
+[0007.85] Log:     GL_ARB_framebuffer_object
+[0007.85] Log:     GL_ARB_framebuffer_sRGB
+[0007.85] Log:     GL_ARB_half_float_pixel
+[0007.85] Log:     GL_ARB_half_float_vertex
+[0007.85] Log:     GL_ARB_instanced_arrays
+[0007.85] Log:     GL_ARB_map_buffer_range
+[0007.85] Log:     GL_ARB_multisample
+[0007.85] Log:     GL_ARB_multitexture
+[0007.85] Log:     GL_ARB_occlusion_query
+[0007.85] Log:     GL_ARB_pixel_buffer_object
+[0007.85] Log:     GL_ARB_point_parameters
+[0007.85] Log:     GL_ARB_point_sprite
+[0007.85] Log:     GL_ARB_shader_objects
+[0007.85] Log:     GL_ARB_shader_texture_lod
+[0007.85] Log:     GL_ARB_shading_language_100
+[0007.85] Log:     GL_ARB_shadow
+[0007.85] Log:     GL_ARB_shadow_ambient
+[0007.85] Log:     GL_ARB_texture_border_clamp
+[0007.85] Log:     GL_ARB_texture_buffer_object
+[0007.85] Log:     GL_ARB_texture_compression
+[0007.85] Log:     GL_ARB_texture_compression_rgtc
+[0007.85] Log:     GL_ARB_texture_cube_map
+[0007.85] Log:     GL_ARB_texture_env_add
+[0007.85] Log:     GL_ARB_texture_env_combine
+[0007.85] Log:     GL_ARB_texture_env_crossbar
+[0007.85] Log:     GL_ARB_texture_env_dot3
+[0007.85] Log:     GL_ARB_texture_float
+[0007.85] Log:     GL_ARB_texture_mirrored_repeat
+[0007.85] Log:     GL_ARB_texture_non_power_of_two
+[0007.85] Log:     GL_ARB_texture_rectangle
+[0007.85] Log:     GL_ARB_texture_rg
+[0007.85] Log:     GL_ARB_texture_snorm
+[0007.85] Log:     GL_ARB_transpose_matrix
+[0007.85] Log:     GL_ARB_vertex_array_object
+[0007.85] Log:     GL_ARB_vertex_buffer_object
+[0007.85] Log:     GL_ARB_vertex_program
+[0007.85] Log:     GL_ARB_vertex_shader
+[0007.85] Log:     GL_ARB_window_pos
+[0007.85] Log:     GL_ATI_draw_buffers
+[0007.85] Log:     GL_ATI_envmap_bumpmap
+[0007.85] Log:     GL_ATI_fragment_shader
+[0007.85] Log:     GL_ATI_meminfo
+[0007.85] Log:     GL_ATI_separate_stencil
+[0007.85] Log:     GL_ATI_texture_compression_3dc
+[0007.85] Log:     GL_ATI_texture_env_combine3
+[0007.85] Log:     GL_ATI_texture_float
+[0007.85] Log:     GL_ATI_texture_mirror_once
+[0007.85] Log:     GL_EXT_abgr
+[0007.85] Log:     GL_EXT_bgra
+[0007.85] Log:     GL_EXT_bindable_uniform
+[0007.85] Log:     GL_EXT_blend_color
+[0007.85] Log:     GL_EXT_blend_equation_separate
+[0007.85] Log:     GL_EXT_blend_func_separate
+[0007.85] Log:     GL_EXT_blend_minmax
+[0007.85] Log:     GL_EXT_blend_subtract
+[0007.85] Log:     GL_EXT_compiled_vertex_array
+[0007.85] Log:     GL_EXT_copy_buffer
+[0007.85] Log:     GL_EXT_copy_texture
+[0007.85] Log:     GL_EXT_draw_buffers2
+[0007.85] Log:     GL_EXT_draw_instanced
+[0007.85] Log:     GL_EXT_draw_range_elements
+[0007.85] Log:     GL_EXT_fog_coord
+[0007.85] Log:     GL_EXT_framebuffer_blit
+[0007.85] Log:     GL_EXT_framebuffer_multisample
+[0007.85] Log:     GL_EXT_framebuffer_object
+[0007.85] Log:     GL_EXT_framebuffer_sRGB
+[0007.85] Log:     GL_EXT_gpu_program_parameters
+[0007.85] Log:     GL_EXT_gpu_shader4
+[0007.85] Log:     GL_EXT_multi_draw_arrays
+[0007.85] Log:     GL_EXT_packed_depth_stencil
+[0007.85] Log:     GL_EXT_packed_float
+[0007.85] Log:     GL_EXT_packed_pixels
+[0007.85] Log:     GL_EXT_pixel_buffer_object
+[0007.85] Log:     GL_EXT_point_parameters
+[0007.85] Log:     GL_EXT_provoking_vertex
+[0007.85] Log:     GL_EXT_rescale_normal
+[0007.85] Log:     GL_EXT_secondary_color
+[0007.85] Log:     GL_EXT_separate_specular_color
+[0007.85] Log:     GL_EXT_shadow_funcs
+[0007.85] Log:     GL_EXT_stencil_wrap
+[0007.85] Log:     GL_EXT_subtexture
+[0007.85] Log:     GL_EXT_texgen_reflection
+[0007.85] Log:     GL_EXT_texture3D
+[0007.85] Log:     GL_EXT_texture_array
+[0007.85] Log:     GL_EXT_texture_buffer_object
+[0007.85] Log:     GL_EXT_texture_compression_latc
+[0007.85] Log:     GL_EXT_texture_compression_rgtc
+[0007.85] Log:     GL_EXT_texture_compression_s3tc
+[0007.85] Log:     GL_EXT_texture_cube_map
+[0007.85] Log:     GL_EXT_texture_edge_clamp
+[0007.85] Log:     GL_EXT_texture_env_add
+[0007.85] Log:     GL_EXT_texture_env_combine
+[0007.85] Log:     GL_EXT_texture_env_dot3
+[0007.85] Log:     GL_EXT_texture_filter_anisotropic
+[0007.85] Log:     GL_EXT_texture_integer
+[0007.85] Log:     GL_EXT_texture_lod
+[0007.85] Log:     GL_EXT_texture_lod_bias
+[0007.85] Log:     GL_EXT_texture_mirror_clamp
+[0007.85] Log:     GL_EXT_texture_object
+[0007.85] Log:     GL_EXT_texture_rectangle
+[0007.85] Log:     GL_EXT_texture_sRGB
+[0007.85] Log:     GL_EXT_texture_shared_exponent
+[0007.85] Log:     GL_EXT_texture_snorm
+[0007.85] Log:     GL_EXT_texture_swizzle
+[0007.85] Log:     GL_EXT_transform_feedback
+[0007.85] Log:     GL_EXT_vertex_array
+[0007.85] Log:     GL_EXT_vertex_array_bgra
+[0007.85] Log:     GL_IBM_texture_mirrored_repeat
+[0007.85] Log:     GL_KTX_buffer_region
+[0007.85] Log:     GL_NV_blend_square
+[0007.85] Log:     GL_NV_conditional_render
+[0007.85] Log:     GL_NV_copy_depth_to_color
+[0007.85] Log:     GL_NV_primitive_restart
+[0007.85] Log:     GL_NV_texgen_reflection
+[0007.85] Log:     GL_SGIS_generate_mipmap
+[0007.85] Log:     GL_SGIS_texture_edge_clamp
+[0007.85] Log:     GL_SGIS_texture_lod
+[0007.85] Log:     GL_SUN_multi_draw_arrays
+[0007.85] Log:     GL_WIN_swap_hint
+[0007.85] Log:     WGL_EXT_swap_control
+[0007.85] Log: GL_MAX_VERTEX_UNIFORM_VECTORS = Not supported
+[0007.85] Log: GL_MAX_VARYING_VECTORS = Not supported
+[0007.85] Log: GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS = 16
+[0007.85] Log: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
+[0007.85] Log: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[0007.85] Log: GL_MAX_FRAGMENT_UNIFORM_VECTORS = Not supported
+[0007.85] Log: GL_MAX_TEXTURE_SIZE = 8192
+[0007.85] Log: GL_MAX_VIEWPORT_DIMS = 8192
+[0007.85] Log: GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT = 16
+[0007.85] Log: GL_SUBPIXEL_BITS = 8
+[0007.85] Log: GL_MAX_VERTEX_ATTRIBS = 16
+[0007.85] Log: Viewport resolution: [640x400]
+[0007.93] Log: Failed to load ShaderGroups.bin
+[0007.93] Log: StartCompilingShaderGroup: StartupPackages
+[0007.93] Log: Compiled 0 Shaders in group StartupPackages
+[0007.93] Log: StartCompilingShaderGroup  0.59 ms total.
+[0007.93] Log: StartCompilingShaderGroup: UnGrouped
+[0007.93] Log: Compiled 0 Shaders in group UnGrouped
+[0007.93] Log: StartCompilingShaderGroup  0.03 ms total.
+[0007.93] Log: Steam Client API is unavailable
+[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0007.94] Warning: Warning, Failed to find object 'Class None.'
+[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0007.94] Warning: Warning, Failed to find object 'Class None.'
+[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0007.94] Warning: Warning, Failed to find object 'Class None.'
+[0007.94] Warning: Warning, Failed to load 'Class None.': Failed to find object 'Class None.'
+[0007.94] Warning: Warning, Failed to find object 'Class None.'
+[0007.94] Log: LoadMap: MenuMap?Name=Player?Team=255
+[0008.23] Log: Game class is 'RCMainMenu'
+[0008.32] Log: Primary PhysX scene will be in software.
+[0008.32] Log: Creating Primary PhysX Scene.
+[0008.33] Log: Bringing World MenuMap.TheWorld up for play (0) at 2014.05.28-21.01.53
+[0008.33] Log: Bringing up level for play took: 0.084094
+[0008.34] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0008.34] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_0
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0008.34] Error: Can't start an online game that hasn't been created
+[0008.34] Log: ########### Finished loading level: 0.395268 seconds
+[0009.08] Init: Game engine initialized
+[0009.08] Log: Initializing Engine Completed
+[0009.08] Log: >>>>>>>>>>>>>> Initial startup: 9.08s <<<<<<<<<<<<<<<
+[0009.14] Log: WarmShaderCache
+[0009.14] Log: WarmShaderCache:ShadersWarmed 9
+[0013.39] Log: LoadMap: Outdoor?Name=Player?Team=255
+[0013.39] Log: --- LOADING MOVIE START ---
+[0013.43] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
+	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
+[0029.39] Log: Game class is 'RCBaseGame'
+[0029.51] Log: Primary PhysX scene will be in software.
+[0029.51] Log: Creating Primary PhysX Scene.
+[0029.54] Log: Bringing World outdoor.TheWorld up for play (0) at 2014.05.28-21.02.14
+[0029.55] ScriptLog: Current Spawn Location Count: 2
+[0029.55] Log: Bringing up level for play took: 0.160944
+[0029.55] ScriptLog: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[0029.57] ScriptLog: FAILED_________________________
+[0029.57] ScriptWarning: Accessed None 'RCRep'
+	RCTimeAttackScene outdoor.TheWorld:PersistentLevel.RCPlayerController_0.RCTimeAttackScene_0
+	Function LDS.RCTimeAttackScene:LoadMenuInfo:009D
+[0029.57] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0134
+[0029.57] ScriptWarning: Accessed None 'Profile'
+	UIDataStore_OnlinePlayerData Transient.DataStoreClient_0:UIDataStore_OnlinePlayerData_1
+	Function Engine.UIDataStore_OnlinePlayerData:OnLoginChange:0168
+[0029.57] ScriptWarning: CANNOT SPAWN PLAYER! No RCSpawnPoint Found
+	RCBaseGame outdoor.TheWorld:PersistentLevel.RCBaseGame_0
+	Function LDS.RCBaseGame:RestartPlayer:0165
+[0029.57] Error: Can't start an online game that hasn't been created
+[0029.57] Log: ########### Finished loading level: 16.176531 seconds
+[0031.83] Log: Save=1974.375610
+[0031.83] Log: Compressing '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3_save.tmp' to '..\..\UDKGame\Content\LocalShaderCache-PC-D3D-SM3.upk'
+[0032.31] Log: --- LOADING MOVIE TIME: 18.9 sec ---
+[0037.09] ScriptWarning: Invalid user index (255) specified for ClearReadProfileSettingsCompleteDelegate()
+	OnlineSubsystemSteamworks Transient.OnlineSubsystemSteamworks_0
+	Function OnlineSubsystemSteamworks.OnlineSubsystemSteamworks:ClearReadProfileSettingsCompleteDelegate:00FE
+[0037.09] Log: All Windows Closed
+[0037.09] Log: appRequestExit(0)
+[0048.23] Critical: appError called: Rendering thread exception:
 Fatal error!
 
-Address = 0x289ad6a  (filename not found) [in C:\UDK\Revamped\UDK\Binaries\Win32\UDK.exe]
-Address = 0x289beea  (filename not found) [in C:\UDK\Revamped\UDK\Binaries\Win32\UDK.exe]
-Address = 0x147e411  (filename not found) [in C:\UDK\Revamped\UDK\Binaries\Win32\UDK.exe]
+Address = 0x16c6ede6 (filename not found) [in C:\windows\system32\atioglxx.dll]
+
+[0048.23] Critical: Windows GetLastError: Invalid window handle. (1400)
+[0048.23] Log: === Critical error: ===
+Rendering thread exception:
+Fatal error!
+
+Address = 0x16c6ede6 (filename not found) [in C:\windows\system32\atioglxx.dll]
+
+
 
